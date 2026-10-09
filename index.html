@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الفلسفة · السنة الأولى باكالوريا</title>
+<meta name="description" content="ورشة الفلسفة للسنة الأولى باكالوريا في صفحة واحدة: الدرس، والموارد، والخطاطات، والبطاقات، والخرائط، والألعاب.">
+<meta name="theme-color" content="#f0ece3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141519" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="media/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="media/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="الفلسفة">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&display=swap">
+<link rel="stylesheet" href="css/bundle.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="الفلسفة · السنة الأولى باكالوريا">
+<meta property="og:description" content="ورشة الفلسفة للسنة الأولى باكالوريا في صفحة واحدة: الدرس، والموارد، والخطاطات، والبطاقات، والخرائط، والألعاب.">
+<meta property="og:image" content="https://mikagiuri.github.io/aula-de-filosofia-web-ar/media/icons/icon-512.png">
+<!-- (07-10) og:url, canonical, og:image y twitter:* absolutos: el build (tools/seo_lib.js) los reescribe con la URL de cada web publicada -->
+<meta property="og:url" content="https://mikagiuri.github.io/aula-de-filosofia-web-ar/">
+<meta property="og:site_name" content="قسم الفلسفة">
+<meta property="og:locale" content="ar_MA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="الفلسفة · السنة الأولى باكالوريا">
+<meta name="twitter:description" content="ورشة الفلسفة للسنة الأولى باكالوريا في صفحة واحدة: الدرس، والموارد، والخطاطات، والبطاقات، والخرائط، والألعاب.">
+<meta name="twitter:image" content="https://mikagiuri.github.io/aula-de-filosofia-web-ar/media/icons/icon-512.png">
+<link rel="canonical" href="https://mikagiuri.github.io/aula-de-filosofia-web-ar/">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/rtl_ar.css">
+</head>
+<body>
+
+<a class="skiplink" href="#contenido">انتقلوا إلى المحتوى</a>
+<header class="bar">
+  <div class="wrap bar-in">
+    <div class="brand"><span class="owl" aria-hidden="true">🦉</span> قسم الفلسفة</div>
+    <nav class="tabs" id="tabs" aria-label="الأقسام">
+      <button data-view="fil" aria-current="true">الرئيسية</button>
+      
+      <div class="navsec">
+        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">للمراجعة</span>
+        <div class="navmenu">
+          <button data-view="teoria">الدروس</button>
+          <button data-view="tarjetas">بطاقات</button>
+          <button data-view="glosario">مسرد المصطلحات</button>
+          <button data-view="ilustres">أعلام</button>
+          <button data-view="citas">أقوال</button>
+        </div>
+      </div>
+      <div class="navsec">
+        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">ألعاب</span>
+        <div class="navmenu">
+          <a class="gamelink" href="media/juego_duelo_de_razones_ar.html#fil" target="_blank" rel="noopener">مبارزة الحجج ↗</a>
+          <button data-view="reto">تحدٍّ</button>
+          <button data-view="parejas">أزواج</button>
+          <button data-view="rayuela">حجلة فلسفية</button>
+        </div>
+      </div>
+      <div class="navsec">
+        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">مرئيات</span>
+        <div class="navmenu">
+          <button data-view="infografias">إنفوغرافيك</button>
+          <button data-view="galeria">معرض الصور</button>
+          <button data-view="mapas">خرائط المفاهيم</button>
+          <button data-view="esquemas">خطاطات</button>
+        </div>
+      </div>
+      <div class="navsec">
+        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">تمارين</span>
+        <div class="navmenu">
+          <button data-view="disertaciones">الإنشاء الفلسفي</button>
+          <button data-view="lecturas">قراءات</button>
+          <button data-view="rescritura">إعادة الصياغة</button>
+          <button data-view="nudos">عُقَد</button>
+          <button data-view="dilemas">معضلات أخلاقية</button>
+          <button data-view="pistas">تلميحات</button>
+          <button data-view="logica">ركن المنطق</button>
+          <button data-view="leibniz">ورشة لايبنتز</button>
+          <button data-view="cuestionarios">اختبارات</button>
+        </div>
+      </div>
+      <a class="langnav" href="https://mikagiuri.github.io/aula-de-filosofia-web/" hreflang="es" lang="es" onclick="this.href=this.href.split('#')[0]+location.hash">🌐 Versión en castellano</a>
+    </nav>
+    <button class="navtoggle" id="navtoggle" aria-label="افتحوا قائمة الأقسام" aria-expanded="false">☰</button>
+    <a class="theme langbtn" id="langbtn" href="https://mikagiuri.github.io/aula-de-filosofia-web/" hreflang="es" lang="es" title="النسخة الإسبانية (Versión en castellano)" aria-label="النسخة الإسبانية (Versión en castellano)" onclick="this.href=this.href.split('#')[0]+location.hash">ES</a>
+    <button class="theme" id="theme" title="تبديل الوضع الفاتح/الداكن" aria-label="تبديل الوضع الفاتح/الداكن">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="contenido">
+
+  <!-- INICIO -->
+  
+
+  <!-- MATERIAS (se rellenan desde js/app.js) -->
+  <section class="view" id="fil"></section>
+  
+  
+
+  <!-- SESIONES -->
+  
+
+  <!-- CALENDARIO -->
+  
+
+  
+
+  
+
+  <!-- TEORÍA -->
+  <section class="view" id="teoria">
+    <!-- (29-09) sin cabecera de sección: el tema abierto ya lleva la suya («Historia de la Filosofía · Tema 6» + título) -->
+    <div class="filterbar" id="theoryfilter" role="group" aria-label="تصفية المواضيع"></div>
+    <div class="chips" id="theorychips" role="group" aria-label="اختاروا موضوعًا"></div>
+    <div class="theory-layout">
+      <nav class="toc" id="toc" aria-label="فهرس الموضوع"></nav>
+      <article class="theory" id="theorybody"></article>
+    </div>
+  </section>
+
+  <!-- MATERIALES -->
+  
+
+  <!-- CUENTOS (Pensamiento crítico) -->
+  
+
+  <!-- LECTURAS -->
+  <section class="view" id="lecturas">
+    <p class="eyebrow">قراءات</p>
+    <h1 class="title">قراءات</h1>
+    <p class="lead">النصوص الأصلية لامتحان PAU —أفلاطون وديكارت وكانط ونيتشه وبوفوار— مع دليل القراءة، والمقتطفات، ونماذج الأجوبة، ومسرد المصطلحات. للقراءة في القسم أو في البيت والتحضير للتمرين 1.</p>
+    <div class="filterbar" id="lecturafilter" role="group" aria-label="تصفية القراءات"></div>
+    <div class="chips" id="lecturachips" role="group" aria-label="اختاروا قراءة"></div>
+    <div class="toolrow" id="comentariolink" style="display:none">
+      <button class="btn" data-go="comentario">✍️ حلّلوا هذا النص (طريقة موجَّهة) ←</button>
+    </div>
+    <div class="theory-layout">
+      <nav class="toc" id="ltoc" aria-label="فهرس القراءة"></nav>
+      <article class="theory" id="lecturabody"></article>
+    </div>
+  </section>
+
+  <!-- DISERTACIONES -->
+  <section class="view" id="disertaciones">
+    <p class="eyebrow">PAU</p>
+    <h1 class="title">الإنشاء الفلسفي</h1>
+    <p class="lead">التمرين الذي <strong>يساوي 3 نقاط</strong> في PAU. تجدون هنا المنهجية وسلّم التقييم، ونماذج كاملة محلولة (أفلاطون، كانط، نيتشه ونموذج من العصر الوسيط)، ونماذج مقارِنة مثنى مثنى للتدرّب على الحجاج.</p>
+    <div class="filterbar" id="disertfilter" role="group" aria-label="تصفية مواضيع الإنشاء"></div>
+    <div class="chips" id="disertchips" role="group" aria-label="اختاروا إنشاءً فلسفيًا"></div>
+    <div class="theory-layout">
+      <nav class="toc" id="diserttoc" aria-label="فهرس الإنشاء الفلسفي"></nav>
+      <article class="theory" id="disertbody"></article>
+    </div>
+  </section>
+
+  <!-- PAU -->
+  
+
+  <!-- RECURSOS -->
+  
+
+  <!-- COMENTARIO DE TEXTO -->
+  
+
+  <!-- UNIDAD (banco por tema) -->
+  
+
+  <!-- DIAPOSITIVAS -->
+  
+
+  <!-- INFOGRAFÍAS -->
+  <section class="view" id="infografias">
+    <p class="eyebrow">مرئيات</p>
+    <h1 class="title">إنفوغرافيك</h1>
+    <p class="lead">لوحات بصرية لكل موضوع، بصيغة HTML: <strong>لعرضها في القسم</strong> أو للمراجعة بنظرة واحدة. قابلة للتعديل وفي ازدياد مستمر.</p>
+    <div class="filterbar" id="igfilter" role="group" aria-label="تصفية الإنفوغرافيك"></div>
+    <div class="chips" id="igchips" role="group" aria-label="اختاروا إنفوغرافيك"></div>
+    <div id="igstage"></div>
+  </section>
+
+  <!-- RÚBRICAS -->
+  
+
+  
+
+  
+
+  <!-- MAPAS -->
+  <section class="view" id="mapas">
+    <p class="eyebrow">أداة</p>
+    <h1 class="title">خرائط المفاهيم</h1>
+    <p class="lead">خرائط ذهنية تفاعلية: انقروا على عقدة (أو الدائرة) <strong>لطيّ الفروع أو فتحها</strong>، واسحبوا للتنقل، واستعملوا العجلة <strong>للتكبير</strong>. مناسبة للعرض في القسم أو للمراجعة بنظرة واحدة.</p>
+    <div class="filterbar" id="mapfilter" role="group" aria-label="تصفية الخرائط"></div>
+    <div class="chips" id="mapchips" role="group" aria-label="اختاروا خريطة"></div>
+    <div class="mapstage">
+      <div class="maphead" id="maphead"></div>
+      <svg id="mapsvg" role="img" aria-label="خريطة مفاهيم"></svg>
+    </div>
+  </section>
+
+  <!-- ESQUEMAS -->
+  <section class="view" id="esquemas">
+    <p class="eyebrow">أداة</p>
+    <h1 class="title">خطاطات</h1>
+    <p class="lead">خطاطات مفاهيمية من الكتاب: <strong>رسوم بيانية للمفاهيم وعلاقاتها</strong> (خاصة في الفلسفة المعاصرة). تكمّل <strong>خرائط المفاهيم</strong>. اختاروا خطاطة لعرضها.</p>
+    <div class="filterbar" id="esqfilter" role="group" aria-label="تصفية الخطاطات"></div>
+    <div class="chips" id="esqchips" role="group" aria-label="اختاروا خطاطة"></div>
+    <div class="mapstage">
+      <div class="maphead" id="esqhead"></div>
+      <div id="esqsvg"></div>
+    </div>
+  </section>
+
+  <!-- ESQUEMAS DE AUTOR -->
+  
+
+  <!-- GALERÍA -->
+  <section class="view" id="galeria">
+    <p class="eyebrow">مرئيات</p>
+    <h1 class="title">معرض الصور</h1>
+    <p class="lead">مجموعة صور <strong>في الملك العام</strong> (Wikimedia Commons) لتوضيح مواضيع <strong>الفلسفة 1</strong>: أعمال فنية وصور شخصية ومشاهد. انقروا على صورة لرؤيتها بملء الشاشة؛ واستعملوا ‹ › للتنقل.</p>
+    <div class="filterbar" id="galfilter" role="group" aria-label="تصفية المعرض"></div>
+    <div class="galcount" id="galcount"></div>
+    <div class="galgrid" id="galgrid"></div>
+  </section>
+
+  <!-- GLOSARIO -->
+  <section class="view" id="glosario">
+    <p class="eyebrow">مرجع</p>
+    <h1 class="title">مسرد المصطلحات</h1>
+    <p class="lead">قاموس المادة: <strong>مصطلحات</strong> الفلسفة 1 مع تعريفاتها، مأخوذة من كتاب القسم. ابحثوا بالكلمة أو صفّوا حسب <strong>المحور</strong> و<strong>المجال</strong>.</p>
+    <div class="filterbar" id="glofilter" role="group" aria-label="تصفية المسرد"></div>
+    <div class="glocount" id="glocount"></div>
+    <div class="glolist" id="glolist"></div>
+  </section>
+
+  <!-- ILUSTRES -->
+  <section class="view" id="ilustres">
+    <p class="eyebrow">مرجع</p>
+    <h1 class="title">أعلام</h1>
+    <p class="lead">سير المفكرين الذين يرد ذكرهم في الدروس، من فلاسفة ما قبل سقراط إلى اليوم: من كانوا، وماذا فكروا، وفي أي المواضيع ندرسهم. صفّوا حسب <strong>العصر</strong> أو ابحثوا بالاسم أو بالعمل أو بالفكرة.</p>
+    <div class="filterbar" id="ilufilter" role="group" aria-label="تصفية الأعلام"></div>
+    <div class="ilu-count" id="ilucount"></div>
+    <div id="ilubox"></div>
+  </section>
+
+  <!-- CITAS -->
+  <section class="view" id="citas">
+    <p class="eyebrow">مرجع</p>
+    <h1 class="title">أقوال</h1>
+    <p class="lead">عبارات مشهورة من الفلسفة، من العصور القديمة إلى اليوم: لكل واحدة <strong>مؤلفها</strong> و<strong>عملها</strong>. صفّوا حسب <strong>العصر</strong>.</p>
+    <div class="filterbar" id="citasfilter" role="group" aria-label="تصفية الأقوال حسب العصر"></div>
+    <div id="citasbody"></div>
+  </section>
+
+  <!-- TARJETAS -->
+  <section class="view" id="tarjetas">
+    <p class="eyebrow">أداة</p>
+    <h1 class="title">بطاقات</h1>
+    <p class="lead">مراجعة بالبطاقات: انقروا على البطاقة (أو اضغطوا على مفتاح المسافة) لقلبها. حدّدوا البطاقات التي أتقنتموها؛ ويُحفظ تقدمكم في هذا المتصفح.</p>
+    <div class="filterbar" id="deckfilter" role="group" aria-label="تصفية مجموعات البطاقات"></div>
+    <div class="chips" id="deckchips" role="group" aria-label="اختاروا مجموعة بطاقات"></div>
+    <div class="fc-stage">
+      <div class="fc-meta"><span id="deckname"></span><span class="count" id="fccount"></span></div>
+      <button class="card" id="card" aria-label="بطاقة: انقروا لقلبها">
+        <div class="card-inner" id="cardinner">
+          <div class="face front">
+            <span class="side">Anverso</span>
+            <div class="emoji" id="fcemoji" aria-hidden="true"></div>
+            <div class="front-t" id="fcfront"></div>
+            <div class="hint">انقروا لرؤية الجواب</div>
+          </div>
+          <div class="face back">
+            <span class="side">Reverso</span>
+            <div class="back-t" id="fcback"></div>
+          </div>
+        </div>
+      </button>
+      <div class="progress"><i id="fcprog"></i></div>
+      <div class="fc-ctrl">
+        <button class="icon-btn" id="fcprev" aria-label="السابق">‹</button>
+        <button class="known-btn" id="fcknown">أعرفها</button>
+        <button class="icon-btn" id="fcshuf" aria-label="خلط" title="خلط">⇄</button>
+        <button class="icon-btn" id="fcnext" aria-label="التالي">›</button>
+      </div>
+    </div>
+    <div id="itin-tarjetas"></div>
+  </section>
+
+  <!-- CUESTIONARIOS -->
+  <section class="view" id="cuestionarios">
+    <p class="eyebrow">أداة</p>
+    <h1 class="title">اختبارات</h1>
+    <p class="lead">تقييم ذاتي مع تصحيح فوري وشرح لكل جواب. تُحفظ أفضل نتيجة لكم في هذا المتصفح.</p>
+    <div class="filterbar" id="quizfilter" role="group" aria-label="تصفية الاختبارات"></div>
+    <div class="chips" id="quizchips" role="group" aria-label="اختاروا اختبارًا"></div>
+    <div class="quiz" id="quizbox"></div>
+    <div id="itin-quiz"></div>
+  </section>
+
+  <section class="view" id="reto">
+    <p class="eyebrow">أداة</p>
+    <h1 class="title">Juego · Reto</h1>
+    <p class="lead">راجعوا باللعب: ضد الساعة، مع نقاط على السرعة والتتابع. تُحفظ أفضل نتيجة لكم في هذا المتصفح.</p>
+    <div id="retobox"></div>
+  </section>
+
+  
+
+  
+
+  <section class="view" id="parejas">
+    <p class="eyebrow">أداة</p>
+    <h1 class="title">أزواج</h1>
+    <p class="lead">اربطوا كل مصطلح من المسرد بتعريفه، ضد الساعة. اجمعوا النقاط والتتابع؛ وتُحفظ أفضل نتيجة لكم في هذا المتصفح.</p>
+    <div id="parbox"></div>
+  </section>
+
+  <section class="view" id="dilemas">
+    <p class="eyebrow">الأخلاق</p>
+    <h1 class="title">معضلات أخلاقية</h1>
+    <p class="lead">وضعيات يجب فيها الاختيار بين أمرين مهمين. اختاروا، وأعطوا سببكم، وانظروا هل ستغيّرون رأيكم. مع «وضع القسم» تُعدّ أصوات القسم.</p>
+    <div id="dilbox"></div>
+  </section>
+
+  
+
+  
+
+  
+
+  
+
+  <section class="view" id="pistas">
+    <p class="eyebrow">تمرين</p>
+    <h1 class="title">تلميحات متدرجة</h1>
+    <p class="lead">أسئلة أساسية من المقرر تجيبون عنها بأنفسكم، مع تلميحات تظهر واحدًا واحدًا: من الأكثر غموضًا إلى ما يكاد يعطيكم الجواب. وإذا نفدت، يساعدكم نص وشرح على الوصول.</p>
+    <div id="pistasbox"></div>
+  </section>
+
+  
+
+  <section class="view" id="logica">
+    <p class="eyebrow">تمرين</p>
+    <h1 class="title">ركن المنطق</h1>
+    <p class="lead">ابنوا جداول الصدق، وتأكدوا من صحة الحجة، وحلّلوا القياسات بمخططات فين، واكتشفوا كيف يعمل المنطق داخل دارة كهربائية، واختبروا أنفسكم بالمفارقات والتمارين والحجج الكلاسيكية.</p>
+    <div id="logicabox"></div>
+  </section>
+
+  <section class="view" id="rescritura">
+    <!-- (09-10) Rescritura: distinguir la rescritura de verdad de la copia, la sinonimia y la malinterpretación
+         (rescritura.js + rescrituraview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">تمرين</p>
+    <h1 class="title">إعادة الصياغة: قولوها بكلماتكم</h1>
+    <p class="lead">شرح نص بكلماتكم ليس نسخه، ولا استبدال كل كلمة فيه بمرادف، ولا الحديث عن شيء آخر. تعلّموا أن تميزوا إعادة الصياغة الحقيقية من هذه الفخاخ الثلاثة، وامتحنوا أنفسكم بمقاطع من كبار الفلاسفة.</p>
+    <div id="rescriturabox"></div>
+  </section>
+
+  <section class="view" id="nudos">
+    <!-- (09-10) Nudos: tensiones entre tus propias respuestas que se deshacen escribiendo razones (nudos.js + nudosview.js).
+         Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">تمرين</p>
+    <h1 class="title">عُقَد: هل تتّسق حججكم؟</h1>
+    <p class="lead">أجيبوا عن بعض العبارات واكتشفوا أين تتعارض أجوبتكم أنتم. تُحلّ كل عقدة بكتابة سبب: تغيير الرأي، أو التمييز بين الحالتين، أو قبول النتيجة.</p>
+    <div id="nudosbox"></div>
+  </section>
+
+  <section class="view" id="leibniz">
+    <!-- (08-10) Taller de Leibniz: de la máquina de calcular al 0 y 1, puente con ingeniería, matemáticas e informática
+         (leibniz.js + leibnizview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">ورشة</p>
+    <h1 class="title">ورشة لايبنتز: هل يمكن حساب التفكير؟</h1>
+    <p class="lead">من آلة حاسبة للضرب في القرن 17 إلى الأصفار والواحدات في هاتفكم: الفيلسوف الذي أراد حسم الخلافات بالحساب.</p>
+    <div id="leibnizbox"></div>
+  </section>
+
+  <section class="view" id="rayuela">
+    <p class="eyebrow">لعبة</p>
+    <h1 class="title">حجلة فلسفية</h1>
+    <p class="lead">رحلة عبر شبكة مترو من الأفكار تمرّ بأسئلة المقرر الكبرى: إجاباتكم تحدد الطريق، وفي النهاية تعرفون مع أي موقف ومع أي فلاسفة تتفقون.</p>
+    <div id="rayuelabox"></div>
+  </section>
+
+  <!-- FUENTES Y AVISO (07-10): en todas las webs, enlazada desde el pie. data-web = webs publicadas que
+       llevan esa fuente (student_lib.filterFuentes quita las demás); la web maestra las muestra todas. -->
+  <section class="view" id="fuentes">
+    <p class="eyebrow">تنبيه</p>
+    <h1 class="title">المصادر والتنبيه</h1>
+    <p class="lead">جميع المواد من إعدادنا، باستثناء الاقتباسات ومقاطع الأعمال الكلاسيكية، فهي تُنقل حرفيًا مع ذكر مؤلفها وعملها. تُستعمل من دون هدف ربحي، ولأغراض تعليمية وتثقيفية فقط.</p>
+    <article class="theory">
+      <h2>نصوص كلاسيكية وترجمات</h2>
+      <ul>
+        <li>الاقتباسات والقراءات القصيرة الأخرى مأخوذة من ترجمات في الملك العام، مع تكييف.</li>
+        <li>العقد وبطاقات السينما (المشهد والأسئلة والقراءة الفخ): من إعدادنا. وفكرة الإشارة إلى التوترات بين أجوبة من يجيب مصدرها <em>Philosophy Experiments</em> (philosophyexperiments.com، Jeremy Stangroom).</li>
+        <li>إعادة الصياغة: مقاطع أفلاطون وأرسطو وأبيقور وهوبز وديكارت وهيوم وروسو وكانط وميل وماركس صيغٌ خاصة مأخوذة من الأصول، وهي ملك عام؛ والصيغ الأربع لكل منها من إعدادنا.</li>
+      </ul>
+      <h2>وثائق رسمية</h2>
+      <ul>
+        <li>منهاج الباكالوريا في إقليم الباسك.</li>
+      </ul>
+      <h2>كتب مدرسية وموارد مرجعية</h2>
+      <ul>
+        <li>ملخصات وموارد قسم الفلسفة في IES Martín de Bertendona.</li>
+        <li>كتاب الفلسفة للسنة الأولى باكالوريا من McGraw Hill.</li>
+        <li>Eukeni Acebal، سلسلة Areté: <em>الفلسفة</em> و<em>Filosofiaren historia</em> و<em>Preparación de la PAU</em> (CC BY-SA 4.0).</li>
+      </ul>
+      <!-- NOTAS-ARETE-INICIO -->
+      <h2>ملاحظات ومراجع حسب المواضيع</h2>
+      <p>مراجع هوامش سلسلة أريتي (Areté)، مرتبة حسب مواضيع وفقرات هذا الموقع التي تتناول تلك الأفكار. بين قوسين، فصل أريتي الذي جاءت منه كل حاشية.</p>
+      <details><summary><strong>الفلسفة · الموضوع 1</strong> · ما الفلسفة؟ (10)</summary>
+      <h3 class="notas-apartado">1. ما الفلسفة؟</h3>
+      <ul>
+      <li>طبعات أفلاطون وأرسطو التي تعتمدها القراءة: Burnet, J. (ed.). (1900). <em>Platonis Opera</em>, vol. I. Clarendon Press (Oxford Classical Texts). · Ross, W. D. (ed.). (1924). <em>Aristotle’s Metaphysics. A Revised Text with Introduction and Commentary</em>, 2 vols. Clarendon Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «أفلاطون وأرسطو»)</span></li>
+      </ul>
+      <h3 class="notas-apartado">2. من الأسطورة إلى اللوغوس</h3>
+      <ul>
+      <li>أوقات الفراغ والدهشة شرطان لنشأة الفلسفة: أرسطو، <em>الميتافيزيقا</em> A 1، 981b، وA 2، 982b. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 2 «من الأسطورة إلى اللوغوس»، §05)</span></li>
+      <li>الموهيون الصينيون وقواعد المناظرة في الهند القديمة: Fraser, C. (2024). Mohism. في E. N. Zalta و U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2024). <a href="https://plato.stanford.edu/archives/fall2024/entries/mohism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2024/entries/mohism/</a> · Gillon, B. (2023). Logic in Classical Indian Philosophy. في E. N. Zalta و U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2023). <a href="https://plato.stanford.edu/archives/fall2023/entries/logic-india/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2023/entries/logic-india/</a> <span class="nota-origen">(Areté, <em>الفلسفة</em>, الموضوع 2 «Del mito al logos», §06)</span></li>
+      <li>هونتوندجي ورفض الفلسفة الإثنية الإفريقية: Masolo, D. (2016). African Sage Philosophy. En E. N. Zalta (Ed.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2016). <a href="https://plato.stanford.edu/archives/spr2016/entries/african-sage/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2016/entries/african-sage/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 2 «من الأسطورة إلى اللوغوس»، §06)</span></li>
+      <li>تعريف الأسطورة: Honko, L. (1984). The problem of defining myth. En A. Dundes (ed.), <em>Sacred narrative: Readings in the theory of myth</em> (pp. 41-52). University of California Press. (Obra original publicada en 1972). <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 1 «من الأسطورة إلى الفلسفة»، §01)</span></li>
+      <li>الأسطورة حكاية مقدسة عن الأصول: Eliade, M. (1985). <em>Mito y realidad</em> (sobre todo p. 25). Labor. (Obra original publicada en 1963). <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 1 «من الأسطورة إلى الفلسفة»، §02)</span></li>
+      </ul>
+      <h3 class="notas-apartado">6. الفلسفة والمعارف الأخرى</h3>
+      <ul>
+      <li>الفعالية غير المعقولة للرياضيات في العلوم الطبيعية: Wigner, E. P. (1960). The unreasonable effectiveness of mathematics in the natural sciences. <em>Communications on Pure and Applied Mathematics</em>, 13(1), 1-14. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 4 «الفلسفة وحقول المعرفة الأخرى»، §16)</span></li>
+      </ul>
+      <h3 class="notas-apartado">7. الفلسفة عبر التاريخ</h3>
+      <ul>
+      <li>التاريخ النسوي للفلسفة والفيلسوفات المنسيات: Witt, C., Shapiro, L., Van Dyke, C. y Robinson, M. (2025). Feminist History of Philosophy. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2025). <a href="https://plato.stanford.edu/archives/win2025/entries/feminism-femhist/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2025/entries/feminism-femhist/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 3 «فروع الفلسفة وراهنيتها»، §11)</span></li>
+      </ul>
+      <h3 class="notas-apartado">8. وظائف الفلسفة وقيمتها اليوم</h3>
+      <ul>
+      <li>فيثاغورس والفيثاغورية كأسلوب حياة فلسفي: Huffman, C. (2024). Pythagoreanism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2024). <a href="https://plato.stanford.edu/archives/spr2024/entries/pythagoreanism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2024/entries/pythagoreanism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 3 «فروع الفلسفة وراهنيتها»، §12)</span></li>
+      <li>ليبمان وماثيوز وفلسفة الأطفال: Pritchard, M. (2022). Philosophy for Children. En E. N. Zalta (Ed.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2022). <a href="https://plato.stanford.edu/archives/sum2022/entries/children/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2022/entries/children/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 3 «فروع الفلسفة وراهنيتها»، §14)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · الموضوع 2</strong> · ما الإنسان؟ (21)</summary>
+      <h3 class="notas-apartado">2. الطبيعة أم الثقافة؟ كائن بيولوجي وثقافي</h3>
+      <ul>
+      <li>الأنطولوجيا الاجتماعية وبناء الواقع الاجتماعي: Epstein, B. (2024). Social Ontology. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2024). <a href="https://plato.stanford.edu/archives/spr2024/entries/social-ontology/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2024/entries/social-ontology/</a> · Searle, J. R. (1995). <em>The construction of social reality</em>. Free Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 9 «الثقافة والمجتمع»، §36)</span></li>
+      <li>معايير إكمان للانفعالات الأساسية: Ekman, P. y Cordaro, D. (2011). What is meant by calling emotions basic. <em>Emotion Review</em>, 3(4), 364-370. · Scarantino, A. y de Sousa, R. (2018). Emotion. En E. N. Zalta (Ed.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2018). <a href="https://plato.stanford.edu/archives/win2018/entries/emotion/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2018/entries/emotion/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 10 «الشخصية»، §42)</span></li>
+      <li>البنائية النفسية للانفعالات عند باريت: Barrett, L. F. (2017). <em>How Emotions Are Made: The Secret Life of the Brain</em>. Houghton Mifflin Harcourt; ed. castellana: <em>La vida secreta del cerebro. Cómo se construyen las emociones</em>. Paidós, 2018. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 10 «الشخصية»، §42)</span></li>
+      <li>التأليف والانتحال في الترجمات الإسبانية لداروين: Acuña-Partal, C. (2022). Autoría y plagio en las traducciones al español de <em>The Descent of Man</em>, de Charles Darwin (1872-1998). <em>1611. Revista de Historia de la Traducción</em>, 16. <a href="https://traduccionliteraria.org/1611/art/acuna2.htm" target="_blank" rel="noopener">https://traduccionliteraria.org/1611/art/acuna2.htm</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «بيكو ودارون»)</span></li>
+      </ul>
+      <h3 class="notas-apartado">3. الثقافة والهوية والتنوع</h3>
+      <ul>
+      <li>الفردانية المنهجية في العلاقة بين الفرد والمجتمع: Heath, J. (2024). Methodological Individualism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2024). <a href="https://plato.stanford.edu/archives/sum2024/entries/methodological-individualism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2024/entries/methodological-individualism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 9 «الثقافة والمجتمع»، §34)</span></li>
+      <li>المؤسسات الاجتماعية ووظيفتها: Miller, S. (2025). Social Institutions. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2025). <a href="https://plato.stanford.edu/archives/win2025/entries/social-institutions/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2025/entries/social-institutions/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 9 «الثقافة والمجتمع»، §34)</span></li>
+      <li>الأنطولوجيا الاجتماعية وبناء الواقع الاجتماعي: Epstein, B. (2024). Social Ontology. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2024). <a href="https://plato.stanford.edu/archives/spr2024/entries/social-ontology/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2024/entries/social-ontology/</a> · Searle, J. R. (1995). <em>The construction of social reality</em>. Free Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 9 «الثقافة والمجتمع»، §36)</span></li>
+      </ul>
+      <h3 class="notas-apartado">4. الجسد والعقل: هل نحن جسد أم نفس أم الاثنان معًا؟</h3>
+      <ul>
+      <li>إليزابيث البوهيمية واعتراضها على ثنائية ديكارت: Shapiro, L. (2021). Elisabeth, Princess of Bohemia. En E. N. Zalta (Ed.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2021). <a href="https://plato.stanford.edu/archives/fall2021/entries/elisabeth-bohemia/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2021/entries/elisabeth-bohemia/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 3 «فروع الفلسفة وراهنيتها»، §11)</span></li>
+      <li>الحجة الكبرى عند بيركلي وفخها: Downing, L. y Hilbert, D. (2026). George Berkeley. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2026). <a href="https://plato.stanford.edu/archives/fall2026/entries/berkeley/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2026/entries/berkeley/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      <li>عند بيركلي ما لا يُدرَك يبقى في عقل الله: Downing, L. y Hilbert, D. (2026). George Berkeley. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2026). <a href="https://plato.stanford.edu/archives/fall2026/entries/berkeley/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2026/entries/berkeley/</a> · Berkeley, G. <em>Tres diálogos entre Hylas y Filonús</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      <li>المثالية كشكل من أشكال الواحدية: Guyer, P. y Horstmann, R.-P. (2026). Idealism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/idealism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/idealism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      <li>الوعي كمشكلة للواحدية المادية: Van Gulick, R. (2026). Consciousness. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/consciousness/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/consciousness/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      <li>مشكلة السببية الذهنية: Robb, D., Heil, J. y Gibb, S. (2023). Mental Causation. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2023). <a href="https://plato.stanford.edu/archives/spr2023/entries/mental-causation/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2023/entries/mental-causation/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 20 «الذهن والجسد والذكاء الاصطناعي»، §75)</span></li>
+      </ul>
+      <h3 class="notas-apartado">5. تصورات فلسفية للإنسان عبر التاريخ</h3>
+      <ul>
+      <li>تاريخ خطاب بيكو ديلا ميراندولا عن كرامة الإنسان: Copenhaver, B. (2025). Giovanni Pico della Mirandola. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2025). <a href="https://plato.stanford.edu/archives/win2025/entries/pico-della-mirandola/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2025/entries/pico-della-mirandola/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «بيكو ودارون»)</span></li>
+      </ul>
+      <h3 class="notas-apartado">6. الوعي واللغة والشخص</h3>
+      <ul>
+      <li>الوعي كمشكلة للواحدية المادية: Van Gulick, R. (2026). Consciousness. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/consciousness/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/consciousness/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      </ul>
+      <h3 class="notas-apartado">7. مشكلة الهوية الشخصية</h3>
+      <ul>
+      <li>الهوية الشخصية عند لوك: consciencia y memoria: Locke, J. (1694). <em>Ensayo sobre el entendimiento humano</em>, II, xxvii, «De la identidad y la diversidad». · Gordon-Roth, J. (2025). Locke on Personal Identity. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2025). <a href="https://plato.stanford.edu/archives/win2025/entries/locke-personal-identity/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2025/entries/locke-personal-identity/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 11 «الهوية الشخصية»، §45)</span></li>
+      <li>اعتراضات ريد وبتلر على نظرية لوك: Reid, T. (1785). <em>Ensayos sobre las facultades intelectuales del hombre</em>, III, 6. · Nichols, R. y Yaffe, G. (2023). Thomas Reid. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2023). <a href="https://plato.stanford.edu/archives/sum2023/entries/reid/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2023/entries/reid/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 11 «الهوية الشخصية»، §45)</span></li>
+      <li>مشكلة الهوية الشخصية: Olson, E. T. (2024). Personal Identity. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2024). <a href="https://plato.stanford.edu/archives/win2024/entries/identity-personal/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2024/entries/identity-personal/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 11 «الهوية الشخصية»، §45)</span></li>
+      <li>مفارقة سفينة ثيسيوس: Plutarco, <em>Vida de Teseo</em>, 23, 1. · Gallois, A. y Kurtsal, I. (2026). Identity Over Time. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/identity-time/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/identity-time/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 11 «الهوية الشخصية»، §45)</span></li>
+      <li>مخارج المشكلة وأطروحة بارفيت: Olson, E. T. (2024). Personal Identity. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2024). <a href="https://plato.stanford.edu/archives/win2024/entries/identity-personal/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2024/entries/identity-personal/</a> · Parfit, D. (1984). <em>Reasons and Persons</em>, tercera parte. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 11 «الهوية الشخصية»، §45)</span></li>
+      <li>الحيوانية كنظرية للهوية الشخصية: Olson, E. T. (1997). <em>The Human Animal: Personal Identity Without Psychology</em>. Oxford University Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 11 «الهوية الشخصية»، §45)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · الموضوع 3</strong> · ماذا يمكننا أن نعرف؟ (33)</summary>
+      <h3 class="notas-apartado">1. ماذا يمكننا أن نعرف؟ المعرفة الإنسانية</h3>
+      <ul>
+      <li>حجج ميتافيزيقية ومعرفية لصالح المثالية: Guyer, P. y Horstmann, R.-P. (2026). Idealism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/idealism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/idealism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 14 «نظريات المعرفة»، §54)</span></li>
+      </ul>
+      <h3 class="notas-apartado">2. مصادر المعرفة: الحواس والعقل</h3>
+      <ul>
+      <li>الظاهراتية كنظرية في المعرفة: Smith, D. W. (2018). Phenomenology. En E. N. Zalta (Ed.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2018). <a href="https://plato.stanford.edu/archives/sum2018/entries/phenomenology/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2018/entries/phenomenology/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 14 «نظريات المعرفة»، §55)</span></li>
+      <li>التأويلية كنظرية في التأويل: George, T. (2026). Hermeneutics. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2026). <a href="https://plato.stanford.edu/archives/fall2026/entries/hermeneutics/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2026/entries/hermeneutics/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 14 «نظريات المعرفة»، §55)</span></li>
+      <li>الطبعات المرجعية لنصوص ديكارت وبيكون: Adam, C. y Tannery, P. (eds.). (1904). <em>Œuvres de Descartes</em>, vol. VII. Cerf. · Spedding, J., Ellis, R. L. y Heath, D. D. (eds.). (1857). <em>The Works of Francis Bacon</em>, vol. I. Longman. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «ديكارت وبيكون»)</span></li>
+      </ul>
+      <h3 class="notas-apartado">3. هل يمكننا بلوغ الحقيقة؟ الدوغمائية والريبية والنقدية</h3>
+      <ul>
+      <li>مقارنة كانط بكوبرنيكوس: el giro copernicano: Rohlf, M. (2024). Immanuel Kant. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2024). <a href="https://plato.stanford.edu/archives/fall2024/entries/kant/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2024/entries/kant/</a> · Kant, I. <em>Crítica de la razón pura</em>, B xvi. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 14 «نظريات المعرفة»، §54)</span></li>
+      <li>الحدوس الخالصة والمفاهيم الخالصة عند كانط: Rohlf, M. (2024). Immanuel Kant. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2024). <a href="https://plato.stanford.edu/archives/fall2024/entries/kant/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2024/entries/kant/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 14 «نظريات المعرفة»، §54)</span></li>
+      <li>أصل عبارة راسل «ربما أكون مخطئًا»: Lyons, L. (1964, junio). Columna en el <em>New York Post</em>. · Quote Investigator (2016, 7 de marzo). <a href="https://quoteinvestigator.com/2016/03/07/never-die/" target="_blank" rel="noopener">https://quoteinvestigator.com/2016/03/07/never-die/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 14 «نظريات المعرفة»، §56)</span></li>
+      <li>المُقنِع (pithanon) في ريبية كارنيادس: Vogt, K. (2022). Ancient Skepticism. En E. N. Zalta (Ed.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2022). <a href="https://plato.stanford.edu/archives/win2022/entries/skepticism-ancient/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2022/entries/skepticism-ancient/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 14 «نظريات المعرفة»، §56)</span></li>
+      </ul>
+      <h3 class="notas-apartado">4. مسألة الحقيقة</h3>
+      <ul>
+      <li>المدافعون عن النظرية الترابطية في الحقيقة: Young, J. O. (2026). The Coherence Theory of Truth. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/truth-coherence/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/truth-coherence/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 12 «المعرفة والحقيقة»، §48)</span></li>
+      <li>اعتراض التخصيص على النظرية الترابطية: Russell, B. (1907). · Young, J. O. (2026). The Coherence Theory of Truth. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/truth-coherence/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/truth-coherence/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 12 «المعرفة والحقيقة»، §48)</span></li>
+      <li>القاعدة البراغماتية عند بيرس: Peirce, C. S. (1878). Cómo esclarecer nuestras ideas. <em>Popular Science Monthly</em>, 12. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 12 «المعرفة والحقيقة»، §48)</span></li>
+      <li>النظرية البراغماتية في الحقيقة: Legg, C. y Hookway, C. (2024). Pragmatism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2024). <a href="https://plato.stanford.edu/archives/win2024/entries/pragmatism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2024/entries/pragmatism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 12 «المعرفة والحقيقة»، §48)</span></li>
+      <li>البناء الاجتماعي للواقع والمعرفة: Berger, P. L. y Luckmann, T. (1966). <em>The Social Construction of Reality: A Treatise in the Sociology of Knowledge</em>. Doubleday. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 12 «المعرفة والحقيقة»، §48)</span></li>
+      <li>تفنيد أفلاطون لنسبية بروتاغوراس: Platón, <em>Teeteto</em>, 171a-c. · Baghramian, M. y Carter, J. A. (2025). Relativism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2025). <a href="https://plato.stanford.edu/archives/spr2025/entries/relativism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2025/entries/relativism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 12 «المعرفة والحقيقة»، §48)</span></li>
+      <li>التعددية في الحقيقة ومشكلاتها: Wright, C. (1992). <em>Truth and Objectivity</em>. Harvard University Press. · Lynch, M. P. (2009). <em>Truth as One and Many</em>. Oxford University Press. · Pedersen, N. J. L. L. y Wright, C. (2023). Pluralist Theories of Truth. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2023). <a href="https://plato.stanford.edu/archives/fall2023/entries/truth-pluralist/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2023/entries/truth-pluralist/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 12 «المعرفة والحقيقة»، §48)</span></li>
+      </ul>
+      <h3 class="notas-apartado">5. ما بعد الحقيقة والأخبار الزائفة</h3>
+      <ul>
+      <li>كيف انتشرت إشاعة كاذبة عن حكم سبتة: <em>Maldita.es</em> (5-08-2026). La sentencia del Tribunal Supremo sobre las “devoluciones en caliente” en Ceuta y Melilla: preguntas y respuestas. · <em>Maldita.es</em> (6-08-2026). De la sentencia del Tribunal Supremo sobre Ceuta a la idea de una frontera abierta. <a href="https://maldita.es/investigaciones/20260806/tribunal-supremo-sentencia-ceuta-marruecos-facebook/" target="_blank" rel="noopener">https://maldita.es/investigaciones/20260806/tribunal-supremo-sentencia-ceuta-marruecos-facebook/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 13 «الإدراك والتضليل وما بعد الحقيقة»، §53)</span></li>
+      <li>الأغنوتولوجيا أو الإنتاج المتعمَّد للجهل: Proctor, R. N. (1995). <em>Cancer Wars: The Politics of Cancer and the Basic Science of Cancer</em>. Basic Books. · Proctor, R. N. y Schiebinger, L. (Eds.) (2008). <em>Agnotology: The Making and Unmaking of Ignorance</em>. Stanford University Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 17 «المعرفة والسلطة والمصلحة»، §68)</span></li>
+      </ul>
+      <h3 class="notas-apartado">6. المعرفة العلمية</h3>
+      <ul>
+      <li>الفعالية غير المعقولة للرياضيات في العلوم الطبيعية: Wigner, E. P. (1960). The unreasonable effectiveness of mathematics in the natural sciences. <em>Communications on Pure and Applied Mathematics</em>, 13(1), 1-14. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 4 «الفلسفة وحقول المعرفة الأخرى»، §16)</span></li>
+      <li>مشكلة التمييز بين العلم والعلم الزائف: Hansson, S. O. (2025). Science and Pseudo-Science. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2025). <a href="https://plato.stanford.edu/archives/fall2025/entries/pseudo-science/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2025/entries/pseudo-science/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §61)</span></li>
+      <li>مشكلة الاستقراء عند هيوم: Hume, D. (1748). <em>Investigación sobre el entendimiento humano</em>, secciones IV y VII. · Hume, D. (1739-1740). <em>Tratado de la naturaleza humana</em>, I, iii. · Henderson, L. (2024). The Problem of Induction. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2024). <a href="https://plato.stanford.edu/archives/win2024/entries/induction-problem/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2024/entries/induction-problem/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §63)</span></li>
+      <li>مبدأ قابلية التكذيب عند بوبر أمام مشكلة الاستقراء: Popper, K. (1934). <em>La lógica de la investigación científica</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §63)</span></li>
+      </ul>
+      <h3 class="notas-apartado">7. العلم والتقنية والفن والمجتمع</h3>
+      <ul>
+      <li>البناء الاجتماعي للواقع والمعرفة: Berger, P. L. y Luckmann, T. (1966). <em>The Social Construction of Reality: A Treatise in the Sociology of Knowledge</em>. Doubleday. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 12 «المعرفة والحقيقة»، §48)</span></li>
+      <li>دخول النساء إلى الجامعة الإسبانية سنة 1910: Real Orden de 8 de marzo de 1910. · SINC · Servicio de Información y Noticias Científicas (FECYT). <em>1910: las españolas por fin van a la universidad</em>. <a href="https://www.agenciasinc.es/Visual/Ilustraciones/1910-Las-espanolas-por-fin-van-a-la-universidad" target="_blank" rel="noopener">https://www.agenciasinc.es/Visual/Ilustraciones/1910-Las-espanolas-por-fin-van-a-la-universidad</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §63)</span></li>
+      <li>أولى النساء المقبولات في الجمعية الملكية: The Royal Society. <em>Women in the Royal Society</em>. Science in the Making. <a href="https://makingscience.royalsociety.org/in-focus/women-in-the-royal-society" target="_blank" rel="noopener">https://makingscience.royalsociety.org/in-focus/women-in-the-royal-society</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §63)</span></li>
+      <li>أثر ماتيلدا والفلسفة النسوية للعلم: Rossiter, M. W. (1993). The Matthew Matilda Effect in Science. <em>Social Studies of Science</em>, 23(2), 325-341. · Crasnow, S. (2025). Feminist Perspectives on Science. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2025). <a href="https://plato.stanford.edu/archives/fall2025/entries/feminist-science/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2025/entries/feminist-science/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §64)</span></li>
+      <li>نسبة النساء حسب الفروع الجامعية في إسبانيا: Ministerio de Ciencia, Innovación y Universidades. (2025). <em>Datos y cifras del Sistema Universitario Español. Curso 2025/26</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §64)</span></li>
+      <li>الحضور النسائي الضعيف في بعض الدراسات الجامعية التقنية: Ministerio de Ciencia, Innovación y Universidades. (2025). <em>Estadística de Estudiantes Universitarios. Curso 2024-2025, avance</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §64)</span></li>
+      <li>أنواع الفعل والعقلانية عند هابرماس: Finlayson, J. G. y Rees, D. H. (2026). Jürgen Habermas. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/habermas/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/habermas/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 17 «المعرفة والسلطة والمصلحة»، §67)</span></li>
+      <li>أصل مصطلح العلم التقني (tecnociencia) ومعناه الفلسفي: Latour, B. (1987). <em>Ciencia en acción</em>. · Echeverría, J. (2003). <em>La revolución tecnocientífica</em>. Fondo de Cultura Económica. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 17 «المعرفة والسلطة والمصلحة»، §68)</span></li>
+      </ul>
+      <h3 class="notas-apartado">8. المعرفة كي لا ننخدع</h3>
+      <ul>
+      <li>لعنة المعرفة وأولى تجاربها: Newton, E. L. (1990). <em>The Rocky Road from Actions to Intentions</em>. Tesis doctoral, Universidad de Stanford. · Camerer, C., Loewenstein, G. y Weber, M. (1989). The Curse of Knowledge in Economic Settings: An Experimental Analysis. <em>Journal of Political Economy</em>, 97(5), 1232-1254. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 6 «الإنشاء الفلسفي»، §23)</span></li>
+      <li>الوصايا الليبرالية العشر لبرتراند راسل: Russell, B. (1951, 16 de diciembre). The Best Answer to Fanaticism: Liberalism. <em>The New York Times Magazine</em>, p. 42. · Russell, B. (1969). <em>Autobiografía</em>, vol. III. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 6 «الإنشاء الفلسفي»، §23)</span></li>
+      <li>الاختصارات الذهنية والتحيّزات المعرفية كما وصفها تفيرسكي وكانمان: Tversky, A. y Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. <em>Science</em>, 185(4157), 1124-1131. · Kahneman, D. (2012). <em>Pensar rápido, pensar despacio</em>. Debate. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 15 «الاستدلال والحجاج»، §59)</span></li>
+      <li>الأغنوتولوجيا أو الإنتاج المتعمَّد للجهل: Proctor, R. N. (1995). <em>Cancer Wars: The Politics of Cancer and the Basic Science of Cancer</em>. Basic Books. · Proctor, R. N. y Schiebinger, L. (Eds.) (2008). <em>Agnotology: The Making and Unmaking of Ignorance</em>. Stanford University Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 17 «المعرفة والسلطة والمصلحة»، §68)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · M</strong> · الواقع: ما الموجود وكيف هو؟ (الميتافيزيقا) (29)</summary>
+      <h3 class="notas-apartado">1. ما الميتافيزيقا؟ (ولماذا لا يحلّ العلم محلّها)</h3>
+      <ul>
+      <li>ميكانيكا الكم العلائقية كموقف ميتافيزيقي: Rovelli, C. (1996). Relational Quantum Mechanics. <em>International Journal of Theoretical Physics</em>, 35, 1637-1678. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 18 «طبيعة الواقع»، §71)</span></li>
+      <li>نقد كانط للميتافيزيقا: Grier, M. (2022). Kant’s Critique of Metaphysics. En E. N. Zalta (Ed.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2022). <a href="https://plato.stanford.edu/archives/fall2022/entries/kant-metaphysics/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2022/entries/kant-metaphysics/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 18 «طبيعة الواقع»، §71)</span></li>
+      <li>حلقة فيينا ورفضها للميتافيزيقا: Uebel, T. (2024). Vienna Circle. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2024). <a href="https://plato.stanford.edu/archives/sum2024/entries/vienna-circle/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2024/entries/vienna-circle/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 18 «طبيعة الواقع»، §71)</span></li>
+      <li>مكانة معيار التحقق عند آير وكارناب: Creath, R. (2026). Logical Empiricism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/logical-empiricism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/logical-empiricism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 18 «طبيعة الواقع»، §71)</span></li>
+      </ul>
+      <h3 class="notas-apartado">2. الظاهر والواقع: هل العالم كما يبدو؟</h3>
+      <ul>
+      <li>نيتشه والارتياب في الاعتقاد بالثابت: Nietzsche, F., <em>La genealogía de la moral</em> I 13. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 18 «طبيعة الواقع»، §70)</span></li>
+      </ul>
+      <h3 class="notas-apartado">3. مم يتكوّن كل شيء؟ الواحدية والتعددية؛ المثالية والمادية</h3>
+      <ul>
+      <li>الحجة الكبرى عند بيركلي وفخها: Downing, L. y Hilbert, D. (2026). George Berkeley. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2026). <a href="https://plato.stanford.edu/archives/fall2026/entries/berkeley/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2026/entries/berkeley/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      <li>عند بيركلي ما لا يُدرَك يبقى في عقل الله: Downing, L. y Hilbert, D. (2026). George Berkeley. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2026). <a href="https://plato.stanford.edu/archives/fall2026/entries/berkeley/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2026/entries/berkeley/</a> · Berkeley, G. <em>Tres diálogos entre Hylas y Filonús</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      <li>المثالية كشكل من أشكال الواحدية: Guyer, P. y Horstmann, R.-P. (2026). Idealism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/idealism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/idealism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      <li>حجج ميتافيزيقية ومعرفية لصالح المثالية: Guyer, P. y Horstmann, R.-P. (2026). Idealism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/idealism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/idealism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 14 «نظريات المعرفة»، §54)</span></li>
+      </ul>
+      <h3 class="notas-apartado">4. الجوهر والماهية والوجود</h3>
+      <ul>
+      <li>«الوجود يُقال على أنحاء كثيرة»، محور الميتافيزيقا: Aristóteles, <em>Metafísica</em>. <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 4 «أرسطو الإسطاغيري»، §14)</span></li>
+      </ul>
+      <h3 class="notas-apartado">5. الذهن والجسد اليوم: هل يمكن للذكاء الاصطناعي أن يفكر؟</h3>
+      <ul>
+      <li>الوعي كمشكلة للواحدية المادية: Van Gulick, R. (2026). Consciousness. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/consciousness/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/consciousness/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 8 «التصورات الفلسفية للإنسان»، §32)</span></li>
+      <li>مشكلة السببية الذهنية: Robb, D., Heil, J. y Gibb, S. (2023). Mental Causation. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2023). <a href="https://plato.stanford.edu/archives/spr2023/entries/mental-causation/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2023/entries/mental-causation/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 20 «الذهن والجسد والذكاء الاصطناعي»، §75)</span></li>
+      <li>حجة الزومبي الفلسفية عن الوعي: Kirk, R. (2023). Zombies. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2023). <a href="https://plato.stanford.edu/archives/fall2023/entries/zombies/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2023/entries/zombies/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 20 «الذهن والجسد والذكاء الاصطناعي»، §76)</span></li>
+      <li>الوظيفية في فلسفة الذهن: Levin, J. (2023). Functionalism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2023). <a href="https://plato.stanford.edu/archives/sum2023/entries/functionalism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2023/entries/functionalism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 20 «الذهن والجسد والذكاء الاصطناعي»، §76)</span></li>
+      <li>لعبة المحاكاة الأصلية عند تورينغ: Turing, A. M. (1950). Computing Machinery and Intelligence. <em>Mind</em>, 59(236), 433-460. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 20 «الذهن والجسد والذكاء الاصطناعي»، §76)</span></li>
+      <li>الغرفة الصينية عند سيرل والرد بحجة النظم: Cole, D. (2026). The Chinese Room Argument. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/chinese-room/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/chinese-room/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 20 «الذهن والجسد والذكاء الاصطناعي»، §76)</span></li>
+      </ul>
+      <h3 class="notas-apartado">6. الزمن والتغيّر</h3>
+      <ul>
+      <li>مفارقة سفينة ثيسيوس: Plutarco, <em>Vida de Teseo</em>, 23, 1. · Gallois, A. y Kurtsal, I. (2026). Identity Over Time. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/identity-time/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/identity-time/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 11 «الهوية الشخصية»، §45)</span></li>
+      <li>نهر هيراقليطس: el resumen de Platón frente al fragmento: Platón, <em>Crátilo</em> 402a. · Heráclito, fr. B12. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 18 «طبيعة الواقع»، §70)</span></li>
+      </ul>
+      <h3 class="notas-apartado">7. هل نحن أحرار؟ الحتمية واللاحتمية والحرية المطلقة والتوافقية</h3>
+      <ul>
+      <li>اعتراض المأزق على حالات عامل التحويل: Widerker, D. (1995). · Ginet, C. (1996). · McKenna, M. y Coates, D. J. (2024). Compatibilism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2024). <a href="https://plato.stanford.edu/archives/sum2024/entries/compatibilism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2024/entries/compatibilism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §89)</span></li>
+      <li>تجربة ليبيت عن القصد الواعي: Libet, B., Gleason, C. A., Wright, E. W. y Pearl, D. K. (1983). Time of conscious intention to act in relation to the onset of cerebral activity (readiness-potential). <em>Brain</em>, 106(3), 623-642. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>فعالية القصود الواعية في مواجهة ليبيت: Mele, A. R. (2009). <em>Effective Intentions: The Power of Conscious Will</em>. Oxford University Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>نموذج التراكم الذي يعيد تفسير تجربة ليبيت: Schurger, A., Sitt, J. D. y Dehaene, S. (2012). An accumulator model for spontaneous neural activity prior to self-initiated movement. <em>Proceedings of the National Academy of Sciences</em>, 109(42). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>ريبية بيريبوم وكاروزو في المسؤولية الأخلاقية: Caruso, G. (2026). Skepticism About Moral Responsibility. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/skepticism-moral-responsibility/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/skepticism-moral-responsibility/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      </ul>
+      <h3 class="notas-apartado">8. هل الله موجود؟ حجج واعتراضات ومواقف</h3>
+      <ul>
+      <li>تصنيف أشكال الإلحاد: Baker, M. J. (UsefulCharts). (2022). <em>Types of Atheists: Psychology of Atheism Part 1</em> [vídeo]. YouTube. <a href="https://www.youtube.com/watch?v=UWhz3SXPWkg" target="_blank" rel="noopener">https://www.youtube.com/watch?v=UWhz3SXPWkg</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 22 «وجود الله»، §83)</span></li>
+      <li>الحجج الوجودية على وجود الله: Oppy, G., Rasmussen, J. y Schmid, J. (2025). Ontological Arguments. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2025). <a href="https://plato.stanford.edu/archives/fall2025/entries/ontological-arguments/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2025/entries/ontological-arguments/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 22 «وجود الله»، §86)</span></li>
+      <li>الحجة الكونية والكلام في مواجهة الانفجار العظيم: Reichenbach, B. (2026). Cosmological Argument. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2026). <a href="https://plato.stanford.edu/archives/fall2026/entries/cosmological-argument/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2026/entries/cosmological-argument/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 22 «وجود الله»، §86)</span></li>
+      <li>مفارقة الشر المنسوبة إلى أبيقور والتي نقلها لاكتانتيوس: Lactancio, <em>De ira Dei</em> 13, 20-22. · Glei, R. (1988). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 22 «وجود الله»، §87)</span></li>
+      <li>مشكلة الشر في مواجهة وجود الله: Tooley, M. (2025). The Problem of Evil. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2025). <a href="https://plato.stanford.edu/archives/fall2025/entries/evil/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2025/entries/evil/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 22 «وجود الله»، §87)</span></li>
+      <li>البراهين الخمسة عند توما الأكويني: Tomás de Aquino, <em>Summa theologiae</em>, I, q. 2, a. 3. <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 6 «فلسفة العصور الوسطى: الله والإيمان والعقل»، §27)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · الموضوع 4</strong> · المنطق والحجاج (11)</summary>
+      <h3 class="notas-apartado">3. الاستنباط والاستقراء</h3>
+      <ul>
+      <li>مشكلة الاستقراء عند هيوم: Hume, D. (1748). <em>Investigación sobre el entendimiento humano</em>, secciones IV y VII. · Hume, D. (1739-1740). <em>Tratado de la naturaleza humana</em>, I, iii. · Henderson, L. (2024). The Problem of Induction. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2024). <a href="https://plato.stanford.edu/archives/win2024/entries/induction-problem/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2024/entries/induction-problem/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §63)</span></li>
+      </ul>
+      <h3 class="notas-apartado">4. الصلاحية والحقيقة</h3>
+      <ul>
+      <li>تعريف المفارقة: Sainsbury, R. M. (2009). <em>Paradoxes</em> (3.ª ed.). Cambridge University Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 15 «الاستدلال والحجاج»، §60)</span></li>
+      </ul>
+      <h3 class="notas-apartado">6. المغالطات</h3>
+      <ul>
+      <li>الاختصارات الذهنية والتحيّزات المعرفية كما وصفها تفيرسكي وكانمان: Tversky, A. y Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. <em>Science</em>, 185(4157), 1124-1131. · Kahneman, D. (2012). <em>Pensar rápido, pensar despacio</em>. Debate. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 15 «الاستدلال والحجاج»، §59)</span></li>
+      <li>التعريف المختلَف فيه للمغالطات وأمثلتها المدرسية: Hansen, H. (2024). Fallacies. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2024). <a href="https://plato.stanford.edu/archives/fall2024/entries/fallacies/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2024/entries/fallacies/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 15 «الاستدلال والحجاج»، §60)</span></li>
+      </ul>
+      <h3 class="notas-apartado">10. كيف نحلّل حجة حقيقية</h3>
+      <ul>
+      <li>لا أدلة على الأثر الرادع لعقوبة الإعدام: <em>Death Penalty Information Center</em>, «Murder Rate of Death Penalty States Compared to Non-Death Penalty States» (datos del FBI, 1990-2019). · Consejo Nacional de Investigación de los EUA (2012), revisión de treinta años de estudios sobre disuasión y pena de muerte. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 6 «الإنشاء الفلسفي»، §22)</span></li>
+      </ul>
+      <h3 class="notas-apartado">11. الحجاج في الحوار: أدوات الفيلسوف</h3>
+      <ul>
+      <li>مضخات الحدس عند دينيت كأدوات للتفكير: Dennett, D. C. (2015). <em>Bombas de intuición y otras herramientas del pensamiento</em>. Fondo de Cultura Económica. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، «أداة للتفكير: عربة الترام»)</span></li>
+      <li>التوازن التأملي بين الحدوس والمبادئ: Knight, C. (2023). Reflective Equilibrium. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2023). <a href="https://plato.stanford.edu/archives/win2023/entries/reflective-equilibrium/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2023/entries/reflective-equilibrium/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 5 «الأدوات الأساسية للفيلسوف»، §18)</span></li>
+      <li>الفلسفة التجريبية واستعمال الحدوس: Sytsma, J., Reuter, K. y Willemsen, P. (2026). Experimental Philosophy. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/experimental-philosophy/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/experimental-philosophy/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 5 «الأدوات الأساسية للفيلسوف»، §18)</span></li>
+      <li>اعتراض الخبرة على الفلسفة التجريبية والرد عليه: Knobe, J. y Nichols, S. (2026). Experimental Philosophy. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/experimental-philosophy/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/experimental-philosophy/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 5 «الأدوات الأساسية للفيلسوف»، §18)</span></li>
+      <li>لعنة المعرفة وأولى تجاربها: Newton, E. L. (1990). <em>The Rocky Road from Actions to Intentions</em>. Tesis doctoral, Universidad de Stanford. · Camerer, C., Loewenstein, G. y Weber, M. (1989). The Curse of Knowledge in Economic Settings: An Experimental Analysis. <em>Journal of Political Economy</em>, 97(5), 1232-1254. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 6 «الإنشاء الفلسفي»، §23)</span></li>
+      <li>الوصايا الليبرالية العشر لبرتراند راسل: Russell, B. (1951, 16 de diciembre). The Best Answer to Fanaticism: Liberalism. <em>The New York Times Magazine</em>, p. 42. · Russell, B. (1969). <em>Autobiografía</em>, vol. III. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 6 «الإنشاء الفلسفي»، §23)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · الموضوع 5</strong> · أسئلة الأخلاق (26)</summary>
+      <h3 class="notas-apartado">1. الإيتيقا والأخلاق: سؤال الحياة الجيدة</h3>
+      <ul>
+      <li>الأصل اللاتيني لكلمة «moral» عند شيشرون: Cicerón, <em>Sobre el destino</em>, 1. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §88)</span></li>
+      <li>الاشتقاق اليوناني لكلمة «الإيتيقا» والفضيلة كعادة: Aristóteles, <em>Ética a Nicómaco</em>, II 1. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §88)</span></li>
+      <li>تمييز برنارد ويليامز بين الأخلاق والإيتيقا: Williams, B. (1985). <em>Ethics and the Limits of Philosophy</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §89)</span></li>
+      </ul>
+      <h3 class="notas-apartado">2. الحرية شرط الأخلاق</h3>
+      <ul>
+      <li>اعتراض المأزق على حالات عامل التحويل: Widerker, D. (1995). · Ginet, C. (1996). · McKenna, M. y Coates, D. J. (2024). Compatibilism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2024). <a href="https://plato.stanford.edu/archives/sum2024/entries/compatibilism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2024/entries/compatibilism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §89)</span></li>
+      <li>تجربة ليبيت عن القصد الواعي: Libet, B., Gleason, C. A., Wright, E. W. y Pearl, D. K. (1983). Time of conscious intention to act in relation to the onset of cerebral activity (readiness-potential). <em>Brain</em>, 106(3), 623-642. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>فعالية القصود الواعية في مواجهة ليبيت: Mele, A. R. (2009). <em>Effective Intentions: The Power of Conscious Will</em>. Oxford University Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>نموذج التراكم الذي يعيد تفسير تجربة ليبيت: Schurger, A., Sitt, J. D. y Dehaene, S. (2012). An accumulator model for spontaneous neural activity prior to self-initiated movement. <em>Proceedings of the National Academy of Sciences</em>, 109(42). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>ريبية بيريبوم وكاروزو في المسؤولية الأخلاقية: Caruso, G. (2026). Skepticism About Moral Responsibility. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/skepticism-moral-responsibility/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/skepticism-moral-responsibility/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      </ul>
+      <h3 class="notas-apartado">3. كيف تُصنَّف النظريات الأخلاقية؟</h3>
+      <ul>
+      <li>الأخلاق الواجبية ومبدأ الأثر المزدوج: Alexander, L. y Moore, M. (2025). Deontological Ethics. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2025). <a href="https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/</a> · McIntyre, A. (2023). Doctrine of Double Effect. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2023). <a href="https://plato.stanford.edu/archives/win2023/entries/double-effect/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2023/entries/double-effect/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 27 «أخلاق الواجب وأخلاق النتائج»، §104)</span></li>
+      <li>كونت يسكّ كلمة «الغيرية» والاعتراض على الأنانية الأخلاقية: Bourdeau, M. (2026). Auguste Comte. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/comte/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/comte/</a> · Shaver, R. (2023). Egoism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2023). <a href="https://plato.stanford.edu/archives/spr2023/entries/egoism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2023/entries/egoism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 27 «أخلاق الواجب وأخلاق النتائج»، §107)</span></li>
+      </ul>
+      <h3 class="notas-apartado">4. الأخلاق المادية الكبرى</h3>
+      <ul>
+      <li>تجربة السامري الصالح ضد أخلاق الفضيلة: Darley, J. M. y Batson, C. D. (1973). «From Jerusalem to Jericho»: A study of situational and dispositional variables in helping behavior. <em>Journal of Personality and Social Psychology</em>, 27(1), 100-108. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 25 «أخلاق الفضيلة»، §97)</span></li>
+      <li>أخلاق الفضيلة وانتقاداتها: Hursthouse, R. y Pettigrove, G. (2026). Virtue Ethics. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/ethics-virtue/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/ethics-virtue/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 25 «أخلاق الفضيلة»، §97)</span></li>
+      <li>العقل ما يخص الإنسان عند سينيكا: Séneca, <em>Epístolas a Lucilio</em> 76, 10. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 26 «الأخلاق الرواقية»، §98)</span></li>
+      <li>النص اليوناني للأخلاق إلى نيقوماخوس والوسط: Bywater, I. (ed.). (1890). <em>Aristotelis Ethica Nicomachea</em>. Clarendon Press (Oxford Classical Texts). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «أرسطو والوسط»)</span></li>
+      </ul>
+      <h3 class="notas-apartado">7. هل توجد حقائق أخلاقية؟ الموضوعية والنسبية والذاتية</h3>
+      <ul>
+      <li>ما بعد الأخلاق (الميتا-إيتيقا) وأسئلتها: Sayre-McCord, G. (2026). Metaethics. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/metaethics/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/metaethics/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>الإرادية المعتدلة عند دونس سكوت: Williams, T. (2026). John Duns Scotus. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/duns-scotus/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/duns-scotus/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>النسبية الأخلاقية: Gowans, C. (2026). Moral Relativism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/moral-relativism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/moral-relativism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 23 «الإيتيقا والأخلاق: المفاهيم وما بعد الأخلاق»، §90)</span></li>
+      <li>الخلاف الحقيقي كاعتراض على الذاتية: Moore, G. E. (1912). <em>Ethics</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      </ul>
+      <h3 class="notas-apartado">9. مذهب المنفعة بتعمّق: هل يمكن حساب السعادة؟</h3>
+      <ul>
+      <li>كونت يسكّ كلمة «الغيرية» والاعتراض على الأنانية الأخلاقية: Bourdeau, M. (2026). Auguste Comte. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/comte/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/comte/</a> · Shaver, R. (2023). Egoism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2023). <a href="https://plato.stanford.edu/archives/spr2023/entries/egoism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2023/entries/egoism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 27 «أخلاق الواجب وأخلاق النتائج»، §107)</span></li>
+      <li>عبارة بنتام عن لعبة push-pin والشعر: Bentham, J. (1825). <em>The Rationale of Reward</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 27 «أخلاق الواجب وأخلاق النتائج»، §107)</span></li>
+      <li>ميل وتفوّق بعض اللذات على بعضها الآخر: Mill, J. S. (1863). <em>Utilitarianism</em>, cap. II. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 27 «أخلاق الواجب وأخلاق النتائج»، §107)</span></li>
+      </ul>
+      <h3 class="notas-apartado">10. ارتياب نيتشه: السادة والعبيد وقلب القيم</h3>
+      <ul>
+      <li>التأصيل النيتشوي لأخلاق السادة والعبيد: Sugrue, M. <em>Nietzsche’s Critique of Christianity: The Genealogy of Morals</em> [vídeo]. YouTube. <a href="https://www.youtube.com/watch?v=7Kuk35VNSEc" target="_blank" rel="noopener">https://www.youtube.com/watch?v=7Kuk35VNSEc</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 28 «أخلاق نيتشه اللاأخلاقية»، §109)</span></li>
+      <li>فلسفة نيتشه ونقده للأخلاق: Anderson, R. L. (2026). Friedrich Nietzsche. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2026). <a href="https://plato.stanford.edu/archives/fall2026/entries/nietzsche/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2026/entries/nietzsche/</a> · Leiter, B. (2024). Nietzsche’s Moral and Political Philosophy. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2024). <a href="https://plato.stanford.edu/archives/fall2024/entries/nietzsche-moral-political/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2024/entries/nietzsche-moral-political/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 28 «أخلاق نيتشه اللاأخلاقية»، §112)</span></li>
+      <li>خيط الأجزاء الثلاثة من أصل الأخلاق: Nietzsche, F., <em>La genealogía de la moral</em> (1887). <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 16 «نيتشه»، §60)</span></li>
+      </ul>
+      <h3 class="notas-apartado">11. أخلاق الرعاية والأخلاق التطبيقية اليوم</h3>
+      <ul>
+      <li>لا أدلة على الأثر الرادع لعقوبة الإعدام: <em>Death Penalty Information Center</em>, «Murder Rate of Death Penalty States Compared to Non-Death Penalty States» (datos del FBI, 1990-2019). · Consejo Nacional de Investigación de los EUA (2012), revisión de treinta años de estudios sobre disuasión y pena de muerte. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 6 «الإنشاء الفلسفي»، §22)</span></li>
+      </ul>
+      <h3 class="notas-apartado">12. مراجعة: أربع طرق للحكم على فعل</h3>
+      <ul>
+      <li>الأخلاق الواجبية ومبدأ الأثر المزدوج: Alexander, L. y Moore, M. (2025). Deontological Ethics. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2025). <a href="https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2025/entries/ethics-deontological/</a> · McIntyre, A. (2023). Doctrine of Double Effect. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2023). <a href="https://plato.stanford.edu/archives/win2023/entries/double-effect/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2023/entries/double-effect/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 27 «أخلاق الواجب وأخلاق النتائج»، §104)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · الموضوع 6</strong> · الحياة في المجتمع (الفلسفة السياسية) (38)</summary>
+      <h3 class="notas-apartado">1. الإنسان كائن اجتماعي وسياسي</h3>
+      <ul>
+      <li>الفردانية المنهجية في العلاقة بين الفرد والمجتمع: Heath, J. (2024). Methodological Individualism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2024). <a href="https://plato.stanford.edu/archives/sum2024/entries/methodological-individualism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2024/entries/methodological-individualism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 9 «الثقافة والمجتمع»، §34)</span></li>
+      <li>المؤسسات الاجتماعية ووظيفتها: Miller, S. (2025). Social Institutions. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2025). <a href="https://plato.stanford.edu/archives/win2025/entries/social-institutions/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2025/entries/social-institutions/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 9 «الثقافة والمجتمع»، §34)</span></li>
+      </ul>
+      <h3 class="notas-apartado">2. لماذا توجد الدولة؟ الطبيعة في مقابل الاتفاق</h3>
+      <ul>
+      <li>حياة البشر في حالة الطبيعة عند هوبز: Hobbes, T., <em>Leviatán</em>, cap. XIII. <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 10 «الفلسفة السياسية الحديثة: من العقد الاجتماعي إلى الليبرالية»، §43)</span></li>
+      </ul>
+      <h3 class="notas-apartado">3. السلطة ومشروعيتها</h3>
+      <ul>
+      <li>المفهوم الفلسفي للعدالة في مقابل مجرد الشرعية القانونية: Miller, D. (2026). Justice. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/justice/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/justice/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 31 «المسألة الفلسفية للعدالة»، §124)</span></li>
+      </ul>
+      <h3 class="notas-apartado">4. العدالة: ما المجتمع العادل؟</h3>
+      <ul>
+      <li>المفهوم الفلسفي للعدالة في مقابل مجرد الشرعية القانونية: Miller, D. (2026). Justice. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2026). <a href="https://plato.stanford.edu/archives/spr2026/entries/justice/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2026/entries/justice/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 31 «المسألة الفلسفية للعدالة»، §124)</span></li>
+      </ul>
+      <h3 class="notas-apartado">5. أشكال الحكم والديمقراطية</h3>
+      <ul>
+      <li>مبادئ الحكم التمثيلي وأصوله: Manin, B. (1997). <em>The principles of representative government</em>. Cambridge University Press. (Ed. castellana: <em>Los principios del gobierno representativo</em>, Alianza, 1998). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 34 «الديمقراطية والدولة»، §136)</span></li>
+      <li>أشكال الحكم الستة عند أرسطو تعدّل تصنيف أفلاطون: Platón, <em>Político</em>, 302c-d. <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 4 «أرسطو الإسطاغيري»، §19)</span></li>
+      </ul>
+      <h3 class="notas-apartado">6. حقوق الإنسان ودولة القانون</h3>
+      <ul>
+      <li>منع الفتيات والنساء الأفغانيات من الدراسة: UNESCO. (11 de agosto de 2026). <em>Five years on: UNESCO calls for the full restoration of the right to education for Afghan girls and women</em>. <a href="https://www.unesco.org/en/articles/five-years-unesco-calls-full-restoration-right-education-afghan-girls-and-women" target="_blank" rel="noopener">https://www.unesco.org/en/articles/five-years-unesco-calls-full-restoration-right-education-afghan-girls-and-women</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §64)</span></li>
+      <li>المعاهدات الدولية الأساسية لحقوق الإنسان: Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos. <em>The core international human rights instruments and their monitoring bodies</em>. <a href="https://www.ohchr.org/en/core-international-human-rights-instruments-and-their-monitoring-bodies" target="_blank" rel="noopener">https://www.ohchr.org/en/core-international-human-rights-instruments-and-their-monitoring-bodies</a> (consultado el 19 de agosto de 2026). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 30 «حقوق الإنسان»، §118)</span></li>
+      <li>نقد بنتام للحقوق الطبيعية لسنة 1789: Bentham, J. (1843). Anarchical fallacies. En J. Bowring (Ed.), <em>The works of Jeremy Bentham</em>, vol. II. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 30 «حقوق الإنسان»، §119)</span></li>
+      <li>الاتفاق على حقوق الإنسان دون اتفاق على أساسها: Maritain, J. (1949). Introduction. En UNESCO, <em>Human rights: comments and interpretations</em>, p. 9. · Etinson, A. (2024). Human rights. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2024). <a href="https://plato.stanford.edu/archives/sum2024/entries/rights-human/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2024/entries/rights-human/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 30 «حقوق الإنسان»، §119)</span></li>
+      <li>حقوق الإنسان الناشئة التي يقترحها المجتمع المدني: <em>Declaración Universal de Derechos Humanos Emergentes</em> (Fòrum Universal de les Cultures, Barcelona, 2004; Monterrey, 2007). Institut de Drets Humans de Catalunya. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 30 «حقوق الإنسان»، §119)</span></li>
+      <li>فاساك والأجيال الثلاثة لحقوق الإنسان: Vašák, K. (1977, noviembre). A 30-year struggle: the sustained efforts to give force of law to the Universal Declaration of Human Rights. <em>The UNESCO Courier</em>. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000048063" target="_blank" rel="noopener">https://unesdoc.unesco.org/ark:/48223/pf0000048063</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 30 «حقوق الإنسان»، §119)</span></li>
+      <li>الاعتراضات على تصنيف حقوق الإنسان إلى أجيال: Macklem, P. (2015). Human rights in international law: three generations or one? <em>London Review of International Law</em>, 3(1), 61-92. · Domaradzki, S., Khvostova, M. y Pupovac, D. (2019). Karel Vasak’s generations of rights and the contemporary human rights discourse. <em>Human Rights Review</em>, 20, 423-443. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 30 «حقوق الإنسان»، §119)</span></li>
+      </ul>
+      <h3 class="notas-apartado">8. أصحاب العقد الاجتماعي واحدًا واحدًا: ما يُتنازل عنه وما لا يُتنازل عنه</h3>
+      <ul>
+      <li>الفلسفة السياسية عند لوك والحقوق الطبيعية: Tuckness, A. (2026). Locke’s Political Philosophy. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2026). <a href="https://plato.stanford.edu/archives/fall2026/entries/locke-political/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2026/entries/locke-political/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 27 «أخلاق الواجب وأخلاق النتائج»، §104)</span></li>
+      <li>لوك والعبودية: sus textos y la disputa interpretativa: Locke, J. (1689). <em>Segundo tratado sobre el gobierno civil</em>, IV 23-24, VII 85 y XVI 182-189. · Locke, J. (1670). <em>Constituciones Fundamentales de Carolina</em>, art. 110. · Armitage, D. (2004). <em>Political Theory</em>, 32(5). · Brewer, H. (2024). <em>Locke Studies</em>, 24. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 27 «أخلاق الواجب وأخلاق النتائج»، §105)</span></li>
+      <li>هوبز: la vida humana en el estado de naturaleza: Hobbes, T. (1651). <em>Leviatán</em>, I, XIII. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 33 «العقد الاجتماعي»، §132)</span></li>
+      <li>هوبز: el hombre, dios o lobo para el hombre: Hobbes, T. (1642). <em>De cive</em>, epístola dedicatoria. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 33 «العقد الاجتماعي»، §133)</span></li>
+      <li>روسو: la democracia directa solo convendría a un pueblo de dioses: Rousseau, J.-J. <em>El contrato social</em>, III, 4. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 33 «العقد الاجتماعي»، §133)</span></li>
+      <li>روسو: la propiedad privada como origen de la desigualdad: Rousseau, J.-J. (1755). <em>Discours sur l’origine et les fondements de l’inégalité parmi les hommes</em>, segunda parte. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 33 «العقد الاجتماعي»، §133)</span></li>
+      <li>نقد هيوم للرضا الضمني في العقد: Hume, D. <em>Del contrato original</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 33 «العقد الاجتماعي»، §135)</span></li>
+      </ul>
+      <h3 class="notas-apartado">10. نماذج الديمقراطية والأخطار التي تهددها</h3>
+      <ul>
+      <li>روسو: la democracia directa solo convendría a un pueblo de dioses: Rousseau, J.-J. <em>El contrato social</em>, III, 4. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 33 «العقد الاجتماعي»، §133)</span></li>
+      <li>روسو ضد التمثيل السياسي والنواب: Rousseau, J.-J. (1762). <em>Du contrat social</em>, III, 15, «Des députés ou représentants». <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 34 «الديمقراطية والدولة»، §136)</span></li>
+      <li>مبادئ الحكم التمثيلي وأصوله: Manin, B. (1997). <em>The principles of representative government</em>. Cambridge University Press. (Ed. castellana: <em>Los principios del gobierno representativo</em>, Alianza, 1998). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 34 «الديمقراطية والدولة»، §136)</span></li>
+      </ul>
+      <h3 class="notas-apartado">11. اليوتوبيات والديستوبيات: نتخيل مجتمعات لنحكم على مجتمعنا</h3>
+      <ul>
+      <li>المجتمعات البشرية تحسنت وما زالت تتحسن: Pinker, S. (2011). <em>Los ángeles que llevamos dentro</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 35 «اليوتوبيات والديستوبيات»، §141)</span></li>
+      </ul>
+      <h3 class="notas-apartado">12. النسوية ومقاربة النوع الاجتماعي</h3>
+      <ul>
+      <li>ماري أستيل ضد إخضاع المرأة المتزوجة: Astell, M. (1700). <em>Some Reflections upon Marriage</em>, prefacio de la tercera edición. · Broad, J. (2014). Mary Astell on marriage and Lockean slavery. <em>History of Political Thought</em>, 35(4), 717-738. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 3 «فروع الفلسفة وراهنيتها»، §11)</span></li>
+      <li>دخول النساء إلى الجامعة الإسبانية سنة 1910: Real Orden de 8 de marzo de 1910. · SINC · Servicio de Información y Noticias Científicas (FECYT). <em>1910: las españolas por fin van a la universidad</em>. <a href="https://www.agenciasinc.es/Visual/Ilustraciones/1910-Las-espanolas-por-fin-van-a-la-universidad" target="_blank" rel="noopener">https://www.agenciasinc.es/Visual/Ilustraciones/1910-Las-espanolas-por-fin-van-a-la-universidad</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §63)</span></li>
+      <li>أولى النساء المقبولات في الجمعية الملكية: The Royal Society. <em>Women in the Royal Society</em>. Science in the Making. <a href="https://makingscience.royalsociety.org/in-focus/women-in-the-royal-society" target="_blank" rel="noopener">https://makingscience.royalsociety.org/in-focus/women-in-the-royal-society</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §63)</span></li>
+      <li>أثر ماتيلدا والفلسفة النسوية للعلم: Rossiter, M. W. (1993). The Matthew Matilda Effect in Science. <em>Social Studies of Science</em>, 23(2), 325-341. · Crasnow, S. (2025). Feminist Perspectives on Science. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Fall 2025). <a href="https://plato.stanford.edu/archives/fall2025/entries/feminist-science/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/fall2025/entries/feminist-science/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §64)</span></li>
+      <li>نسبة النساء حسب الفروع الجامعية في إسبانيا: Ministerio de Ciencia, Innovación y Universidades. (2025). <em>Datos y cifras del Sistema Universitario Español. Curso 2025/26</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §64)</span></li>
+      <li>منع الفتيات والنساء الأفغانيات من الدراسة: UNESCO. (11 de agosto de 2026). <em>Five years on: UNESCO calls for the full restoration of the right to education for Afghan girls and women</em>. <a href="https://www.unesco.org/en/articles/five-years-unesco-calls-full-restoration-right-education-afghan-girls-and-women" target="_blank" rel="noopener">https://www.unesco.org/en/articles/five-years-unesco-calls-full-restoration-right-education-afghan-girls-and-women</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §64)</span></li>
+      <li>الحضور النسائي الضعيف في بعض الدراسات الجامعية التقنية: Ministerio de Ciencia, Innovación y Universidades. (2025). <em>Estadística de Estudiantes Universitarios. Curso 2024-2025, avance</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §64)</span></li>
+      <li>إعلانات الحقوق التي تنتقدها دو غوج وتصححها: <em>Declaración de Derechos de Virginia</em> (1776). · <em>Declaración de los Derechos del Hombre y del Ciudadano</em> (1789). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 36 «النسوية ومنظور النوع الاجتماعي»، §143)</span></li>
+      <li>أول استعمال مطبوع لكلمة «sororidad» (الأخوّة بين النساء) بالإسبانية على يد أونامونو: Unamuno, M. de (1921, marzo). Sororidad. Ángeles y abejas. <em>Caras y Caretas</em> (Buenos Aires). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 36 «النسوية ومنظور النوع الاجتماعي»، §145)</span></li>
+      <li>نقد مارثا نوسباوم لجوديث بتلر: Nussbaum, M. C. (1999, 22 de febrero). The professor of parody. <em>The New Republic</em>. <a href="https://newrepublic.com/article/150687/professor-parody" target="_blank" rel="noopener">https://newrepublic.com/article/150687/professor-parody</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 36 «النسوية ومنظور النوع الاجتماعي»، §146)</span></li>
+      <li>فلسفة جون ستيوارت ميل: libertad e igualdad: Macleod, C. (2026). John Stuart Mill. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/mill/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/mill/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «ميل وكامبومور»)</span></li>
+      <li>نقاش سنة 1931 حول حق المرأة في التصويت: Campoamor y Kent: Congreso de los Diputados (1933). <em>Diario de Sesiones de las Cortes Constituyentes de la República Española</em>, tomo III, núm. 48, sesión del 1 de octubre de 1931, pp. 1347-1372. Sucesores de Rivadeneyra. <a href="https://blog.congreso.es/wp-content/uploads/2021/10/C-0048-01347.pdf" target="_blank" rel="noopener">https://blog.congreso.es/wp-content/uploads/2021/10/C-0048-01347.pdf</a>; <a href="https://app.congreso.es/est_sesiones/" target="_blank" rel="noopener">https://app.congreso.es/est_sesiones/</a> · Texto refundido de la Ley de Propiedad Intelectual, art. 13. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «ميل وكامبومور»)</span></li>
+      <li>همبولت، المصدر المشترك لميل وكامبومور: Humboldt, W. von (1854). <em>The Sphere and Duties of Government</em> (trad. de J. Coulthard). Versión inglesa de <em>Ideen zu einem Versuch, die Grenzen der Wirksamkeit des Staats zu bestimmen</em> (h. 1792; publicado entero en 1852). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «ميل وكامبومور»)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · الموضوع 7</strong> · ما الفن؟ (الجماليات) (21)</summary>
+      <h3 class="notas-apartado">2. الجميل: هل هو في الموضوع أم في الذات؟</h3>
+      <ul>
+      <li>سُلَّم أفلاطون في الحب نحو الجمال: Platón, <em>Banquete</em> (la escala del amor). <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>الخلاف الحقيقي كاعتراض على الذاتية: Moore, G. E. (1912). <em>Ethics</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>مثال على الخلاف في أحكام الجمال: Sartwell, C. Beauty. En <em>The Stanford Encyclopedia of Philosophy</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>الكليات الجمالية المزعومة وأسطورة النسبة الذهبية: Markowsky, G. (1992). Misconceptions about the Golden Ratio. <em>The College Mathematics Journal</em>, 23(1), 2-19. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>شيشرون: a cada cual le parece hermoso lo suyo: Cicerón, <em>Tusculanas</em>, V, 63. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>سقراط عند كسينوفون: lo bello como lo adecuado a su fin: Jenofonte, <em>Memorables</em>, III, 8, 4-7. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §152)</span></li>
+      <li>أرسطو: orden, simetría y delimitación como formas de lo bello: Aristóteles, <em>Metafísica</em>, XIII, 3, 1078a36. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §152)</span></li>
+      <li>أرسطو: la magnitud adecuada de lo bello: Aristóteles, <em>Poética</em>, 7, 1450b-1451a. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §152)</span></li>
+      <li>أفلوطين: el Uno como fuente de toda belleza: Plotino, <em>Enéadas</em>, I, 6, 1 y I, 6, 9. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §152)</span></li>
+      </ul>
+      <h3 class="notas-apartado">3. حكم الذوق: هيوم وكانط</h3>
+      <ul>
+      <li>دائرية معيار هيوم وذوق الطبقة: Kivy, P. (1967). Hume’s Standard of Taste: Breaking the Circle. <em>British Journal of Aesthetics</em>. · Bourdieu, P. (1979). <em>La distinción</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>نادرة دون كيخوتي التي يستعملها هيوم عن الذوق: Cervantes, M. de, <em>Quijote</em>, II, 13. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>مبدأ وولهايم: juzgar exige experiencia directa: Wollheim, R. (1980). <em>Art and Its Objects</em> (2.ª ed., p. 233). Cambridge University Press. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>اللحظات الأربع الكانطية لحكم الذوق: Kant, I. <em>Crítica del juicio</em>, «Analítica de lo bello». <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §153)</span></li>
+      </ul>
+      <h3 class="notas-apartado">4. ما الفن؟ النظريات الكبرى</h3>
+      <ul>
+      <li>نقد أفلاطون للشعر والمحاكاة: Platón, <em>الجمهورية</em>, X, 597e, 602c-d, 607a y 607c-e; libros II y III. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §152)</span></li>
+      <li>التِّخْنِي (techne) عند أرسطو معرفةٌ إنتاجية لا فنون جميلة: Aristóteles, <em>Ética a Nicómaco</em>, VI, 4-5, 1140a1-b7. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §152)</span></li>
+      <li>الفن يحاكي الطبيعة والشعر يعبّر عن الكلي: Aristóteles, <em>Física</em>, II, 8, 199a15-17. · Aristóteles, <em>Poética</em>, 9, 1451b. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §152)</span></li>
+      <li>مقدمة وايلد: el arte por el arte: Wilde, O. (1891). A Preface to «Dorian Gray». <em>Fortnightly Review</em>, 49(291), 480-481. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «أرسطو ووايلد»)</span></li>
+      </ul>
+      <h3 class="notas-apartado">5. الفن والحقيقة: هل الفن معرفة؟</h3>
+      <ul>
+      <li>العقل الشعري عند ماريا ثامبرانو: Zambrano, M. (1939). <em>Filosofía y poesía</em>. Universidad Michoacana. · Zambrano, M. (1977). <em>Claros del bosque</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 16 «المعرفة العلمية»، §62)</span></li>
+      <li>الفن يحاكي الطبيعة والشعر يعبّر عن الكلي: Aristóteles, <em>Física</em>, II, 8, 199a15-17. · Aristóteles, <em>Poética</em>, 9, 1451b. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 38 «نظريات الجمال والفن»، §152)</span></li>
+      </ul>
+      <h3 class="notas-apartado">6. الفن والعواطف والثقافة والأخلاق</h3>
+      <ul>
+      <li>دائرية معيار هيوم وذوق الطبقة: Kivy, P. (1967). Hume’s Standard of Taste: Breaking the Circle. <em>British Journal of Aesthetics</em>. · Bourdieu, P. (1979). <em>La distinción</em>. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 37 «الفن والجمال والذوق»، §150)</span></li>
+      <li>مقدمة وايلد: el arte por el arte: Wilde, O. (1891). A Preface to «Dorian Gray». <em>Fortnightly Review</em>, 49(291), 480-481. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «أرسطو ووايلد»)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · الموضوع 1</strong> · أصول الفلسفة: فلاسفة ما قبل سقراط (1)</summary>
+      <h3 class="notas-apartado">5. فيثاغورس الساموسي (حوالي 570-490 ق.م)</h3>
+      <ul>
+      <li>فيثاغورس والفيثاغورية كأسلوب حياة فلسفي: Huffman, C. (2024). Pythagoreanism. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Spring 2024). <a href="https://plato.stanford.edu/archives/spr2024/entries/pythagoreanism/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/spr2024/entries/pythagoreanism/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 3 «فروع الفلسفة وراهنيتها»، §12)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>الفلسفة · الموضوع 5</strong> · المدارس الهلنستية: كيف تُبلَغ السعادة؟ (6)</summary>
+      <h3 class="notas-apartado">سؤال واحد وأربعة أجوبة</h3>
+      <ul>
+      <li>فلسفة أبيقور: Konstan, D. (2026). Epicurus. En E. N. Zalta y U. Nodelman (Eds.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Summer 2026). <a href="https://plato.stanford.edu/archives/sum2026/entries/epicurus/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/sum2026/entries/epicurus/</a> <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «أبيقور ورسالة إلى مينيكيوس»)</span></li>
+      <li>حجة التماثل أمام الموت عند لوكريتيوس: Lucrecio, <em>De rerum natura</em>, libro III. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، قراءة «أبيقور ورسالة إلى مينيكيوس»)</span></li>
+      <li>العقل ما يخص الإنسان عند سينيكا: Séneca, <em>Epístolas a Lucilio</em> 76, 10. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 26 «الأخلاق الرواقية»، §98)</span></li>
+      <li>اقتباس لسينيكا عن الفضائل الرواقية: Séneca, <em>De la providencia</em> 2, 4. <span class="nota-origen">(أريتي، <em>الفلسفة</em>، الموضوع 26 «الأخلاق الرواقية»، §100)</span></li>
+      <li>المصادر الرئيسية للمذهب الأبيقوري: Diógenes Laercio (cartas y máximas de Epicuro). · Lucrecio, <em>De rerum natura</em>. <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 5 «الفلسفة الهلنستية»، §21)</span></li>
+      <li>العلاج الأبيقوري للخوف من الموت: Epicuro, <em>Carta a Meneceo</em>. <span class="nota-origen">(أريتي، <em>تاريخ الفلسفة</em>، الموضوع 5 «الفلسفة الهلنستية»، §21)</span></li>
+      </ul>
+      </details>
+      <details><summary><strong>ملاحظات أخرى</strong> · ليس لها قسم خاص في الموقع</summary><ul>
+      <li>هل للمزاجات موضوع أم لا: Scarantino, A. و de Sousa, R. (2018). Emotion. في E. N. Zalta (Ed.), <em>The Stanford Encyclopedia of Philosophy</em> (ed. Winter 2018). <a href="https://plato.stanford.edu/archives/win2018/entries/emotion/" target="_blank" rel="noopener">https://plato.stanford.edu/archives/win2018/entries/emotion/</a> <span class="nota-origen">(Areté, <em>الفلسفة</em>, الموضوع 10 «La personalidad», §42)</span></li>
+      <li>النظرية المعرفية للانفعالات في مقابل نظرية الشعور: Nussbaum, M. (2001). <em>Upheavals of Thought: The Intelligence of Emotions</em>. Cambridge University Press؛ الطبعة الإسبانية: <em>Paisajes del pensamiento. La inteligencia de las emociones</em>. Paidós, 2008. · James, W. (1884). What is an Emotion? <em>Mind</em>, 9(34), 188-205. <span class="nota-origen">(Areté, <em>الفلسفة</em>, الموضوع 10 «La personalidad», §42)</span></li>
+      <li>الانفعالات العنيدة والنظرية الإدراكية للانفعالات: D’Arms, J. و Jacobson, D. (2003). The Significance of Recalcitrant Emotion. في A. Hatzimoysis (Ed.), <em>Philosophy and the Emotions</em>. Cambridge University Press. · Tappolet, C. (2016). <em>Emotions, Values, and Agency</em>. Oxford University Press. <span class="nota-origen">(Areté, <em>الفلسفة</em>, الموضوع 10 «La personalidad», §42)</span></li>
+      </ul></details>
+      <!-- NOTAS-ARETE-FIN -->
+      <h2>صور</h2>
+      <ul>
+        <li>أعمال فنية وصور شخصية من Wikimedia Commons ومن متاحف ومكتبات (Metropolitan Museum وRijksmuseum وLACMA وWellcome Collection وNew York Public Library وLibrary of Congress وWalters Art Museum)، في الملك العام أو برخص CC0 وCC BY وCC BY-SA. تحمل كل صورة بيانات مصدرها.</li>
+        <li>رسوم مولّدة بالذكاء الاصطناعي (Gemini وNano Banana من Google، وFLUX).</li>
+      </ul>
+      <h2>أفلام ومسلسلات وفيديوهات</h2>
+      <ul>
+        <li>تُذكر الأفلام والمسلسلات والأعمال الفنية بعنوانها ومؤلفها وسنتها فقط.</li>
+      </ul>
+      <h2>برامج وخطوط</h2>
+      <ul>
+        <li>Mermaid وMarkmap (رخصة MIT) للخطاطات والخرائط.</li>
+        <li>خطوط Spectral وIBM Plex وFraunces (رخصة SIL Open Font License).</li>
+      </ul>
+    </article>
+  </section>
+</main>
+<footer class="wrap sitefoot"><a href="#fuentes">المصادر والتنبيه</a></footer>
+
+<script src="js/store.js"></script>
+<script src="js/data.js"></script>
+<script src="js/tarjetas_img.js"></script>
+<script src="js/flashcards.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/retoview.js"></script>
+<script src="js/theory.js"></script>
+<script src="js/theoryview.js"></script>
+<script src="js/retratos_museo.js"></script>
+<script src="js/retratosview.js"></script>
+<script src="js/ilustraciones_fil.js"></script>
+<script src="js/galeria_pensar.js"></script>
+<script src="js/ilustracionesview.js"></script>
+<script src="js/cine_arte.js"></script>
+<script src="js/cineview.js"></script>
+<script src="js/citas.js"></script>
+<script src="js/citasview.js"></script>
+<script src="js/materials.js"></script>
+<script src="js/materialsview.js"></script>
+<script src="js/cuentosview.js"></script>
+<script src="js/lecturas.js"></script>
+<script src="js/lecturasview.js"></script>
+<script src="js/disertaciones.js"></script>
+<script src="js/disertacionesview.js"></script>
+<script src="js/pau.js"></script>
+<script src="js/pauview.js"></script>
+<script src="js/comentario.js"></script>
+<script src="js/comentarioview.js"></script>
+<script src="js/diapositivas.js"></script>
+<script src="js/media.js"></script>
+<script src="js/mediaview.js"></script>
+<script>window.markmap = { autoLoader: { manual: true } };</script>
+<!-- markmap-autoloader se carga bajo demanda al abrir Mapas (js/lazy_libs.js) -->
+<script src="js/maps.js"></script>
+<script src="js/mapsview.js"></script>
+<script src="js/infografias.js"></script>
+<script src="js/infografiasview.js"></script>
+<script src="js/glosario.js"></script>
+<script src="js/glosario_grids.js"></script>
+<script src="js/glosarioview.js"></script>
+<script src="js/ilustres.js"></script>
+<script src="js/ilustres_retratos.js"></script>
+<script src="js/ilustresview.js"></script>
+<script src="js/parejasview.js"></script>
+<script src="js/dilemas.js"></script>
+<script src="js/dilemasview.js"></script>
+<script src="js/rayuela_fil.js"></script>
+<script src="js/rayuelaview.js"></script>
+<script src="js/pistas_uhs.js"></script>
+<script src="js/pistasview.js"></script>
+<script src="js/paradojas.js"></script>
+<script src="js/logicaview.js"></script>
+<script src="js/leibniz.js"></script>
+<script src="js/leibnizview.js"></script>
+<script src="js/rescritura.js"></script>
+<script src="js/rescrituraview.js"></script>
+<script src="js/nudos.js"></script>
+<script src="js/nudosview.js"></script>
+<!-- mermaid se carga bajo demanda al abrir Esquemas (js/lazy_libs.js) -->
+<script src="js/esquemas.js"></script>
+<script src="js/esquemas_fil.js"></script>
+<script src="js/esq_grid.js"></script>
+<script src="js/esquemasview.js"></script>
+<script src="js/sesiones.js"></script>
+<script src="js/sesionesview.js"></script>
+<script src="js/calendarioview.js"></script>
+<script src="js/galeria.js"></script>
+<script src="js/galeriaview.js"></script>
+<script src="js/galeria_extra.js"></script>
+<script src="js/mobile.js"></script>
+<script src="js/app.js"></script>
+<script src="js/navctx.js"></script>
+<script src="js/progreso.js"></script>
+<script src="js/search.js"></script>
+<script src="js/resume.js"></script>
+<script src="js/itinerario.js"></script>
+<script src="js/epocas.js"></script>
+<script src="js/compacto.js"></script>
+<script src="js/nav_toc.js"></script>
+<script src="js/lazy_libs.js"></script>
+<script>
+  /* PWA: registra el service worker (offline + instalable). Falla en silencio
+     en contextos sin SW (p. ej. la copia descargable de un solo archivo). */
+  if ("serviceWorker" in navigator) {
+    addEventListener("load", function(){
+      navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(function(){});
+    });
+  }
+</script>
+</body>
+</html>
