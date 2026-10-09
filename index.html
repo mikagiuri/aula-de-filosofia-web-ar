@@ -51,6 +51,7 @@
           <button data-view="glosario">مسرد المصطلحات</button>
           <button data-view="ilustres">أعلام</button>
           <button data-view="citas">أقوال</button>
+          <button data-view="adagios">المأثورات</button>
         </div>
       </div>
       <div class="navsec">
@@ -259,6 +260,16 @@
     <div id="citasbody"></div>
   </section>
 
+  <section class="view" id="adagios">
+    <!-- (09-10) Adagios: lemas clásicos como lenguaje común, al modo de los lugares comunes del Renacimiento
+         (adagios.js + adagiosview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">مرجع</p>
+    <h1 class="title">المأثورات: اللغة المشتركة للفلسفة</h1>
+    <p class="lead">شعارات لاتينية ويونانية يستشهد بها الفلاسفة منذ قرون: ماذا تقول، ومن أين تأتي، ومتى تُستعمل. تعلّموها كما يتعلمها تلميذ في عصر النهضة.</p>
+    <div class="filterbar" id="adagiosfilter" role="group" aria-label="تصفية المأثورات"></div>
+    <div id="adagiosbox"></div>
+  </section>
+
   <!-- TARJETAS -->
   <section class="view" id="tarjetas">
     <p class="eyebrow">أداة</p>
@@ -396,9 +407,14 @@
     <article class="theory">
       <h2>نصوص كلاسيكية وترجمات</h2>
       <ul>
-        <li>الاقتباسات والقراءات القصيرة الأخرى مأخوذة من ترجمات في الملك العام، مع تكييف.</li>
+        <li>أقوال: يذكر كل اقتباس مؤلفه وعمله ومكانه في العمل، وما ليس حرفيًا منها نشير إلى أنه شرح بتصرف أو عبارة تقليدية أو منسوب. لا نحدد الترجمة اقتباسًا اقتباسًا: فهي صيغ من إعدادنا أو معدّلة، ولذلك ينبغي، عند الاستشهاد بها في عمل مكتوب، مقابلتها بإحدى الطبعات. أما أقوال مؤلفي القرنين 20 و21 فنوردها اقتباسات قصيرة، مع ذكر مؤلفها وعملها.</li>
+        <li>المأثورات: نصوص لاتينية ويونانية في الملك العام؛ الترجمات والتعليقات من إعدادنا. يتبع الاختيار وأرقام الإحالة كتاب <em>Adagia</em> لإيراسموس الروتردامي (طبعات من 1500 إلى 1536) والترجمة الإنجليزية المشروحة في <em>Collected Works of Erasmus</em> (University of Toronto Press، المجلدات 31-36).</li>
         <li>العقد وبطاقات السينما (المشهد والأسئلة والقراءة الفخ): من إعدادنا. وفكرة الإشارة إلى التوترات بين أجوبة من يجيب مصدرها <em>Philosophy Experiments</em> (philosophyexperiments.com، Jeremy Stangroom).</li>
-        <li>إعادة الصياغة: مقاطع أفلاطون وأرسطو وأبيقور وهوبز وديكارت وهيوم وروسو وكانط وميل وماركس صيغٌ خاصة مأخوذة من الأصول، وهي ملك عام؛ والصيغ الأربع لكل منها من إعدادنا.</li>
+        <li>إعادة الكتابة: مقتطفات أفلاطون وأرسطو وأبيقور وهوبز وديكارت وهيوم وروسو وكانط وميل وماركس هي صيغ من إعدادنا انطلاقًا من النصوص الأصلية (والنصوص الأصلية في الملك العام)؛ والصيغ الأربع لكل مقتطف من إعدادنا.</li>
+        <li>استكشاف «اسبينوزا: الفلسفة نسقًا» (الفلسفة السنة الأولى باكالوريا، الموضوع 1؛ تاريخ الفلسفة، الموضوع 15): مقاطع المربعات «اسبينوزا ضد…» (<em>الأخلاق</em> I, ملحق؛ II, 35, شرح؛ III, مقدمة؛ IV, 45, شرح؛ الرسالة 56؛ <em>Tratado teológico-político</em>, المقدمة؛ <em>Tratado político</em> I, 1) هي صيغ من إعدادنا عن الأصل اللاتيني؛ أما باقي جمل اسبينوزا القصيرة (<em>الأخلاق</em> II, 7؛ IV, 67؛ V, 42؛ <em>Tratado teológico-político</em>, 20) فمأخوذة من ترجمة غير محددة.</li>
+        <li>ورشة لايبنتز: نصوص من إعدادنا؛ وقد تم التحقق من الاقتباسات والمعطيات في C. I. Gerhardt (ed.), <em>Die philosophischen Schriften von G. W. Leibniz</em>, vol. VII («لنحسب» calculemus)، وفي <em>Monadología</em> (§ 17)، وفي رسالة Joachim Bouvet إلى لايبنتز بتاريخ 4 نونبر 1701، وفي النسخة المحفوظة من آلة الحساب (مكتبة هانوفر).</li>
+        <li>قراءات الفلسفة السنة الأولى باكالوريا: نصوص أفلاطون وأرسطو وديكارت وبيكون وأبيقور وبيكو ديلا ميراندولا ودارون وميل ووايلد هي صيغ من إعدادنا؛ أما مداخلة Clara Campoamor في Cortes Constituyentes (1 أكتوبر 1931) فتُورَد بنصها الأصلي، في مقتطفات قصيرة. والاختيار والأدلة من إعدادنا.</li>
+        <li>القديس أوغسطين، <em>Sobre la vida feliz</em> (الفصل 2): ترجمة إلى الإسبانية عن صيغة الأستاذ بالباسكية.</li>
       </ul>
       <h2>وثائق رسمية</h2>
       <ul>
@@ -409,6 +425,8 @@
         <li>ملخصات وموارد قسم الفلسفة في IES Martín de Bertendona.</li>
         <li>كتاب الفلسفة للسنة الأولى باكالوريا من McGraw Hill.</li>
         <li>Eukeni Acebal، سلسلة Areté: <em>الفلسفة</em> و<em>Filosofiaren historia</em> و<em>Preparación de la PAU</em> (CC BY-SA 4.0).</li>
+        <li>تلميحات: المسارات من إعدادنا؛ وصيغة التلميحات المتدرجة، من الأكثر غموضًا إلى الأكثر تحديدًا، مصدرها <em>Universal Hint System</em> (UHS) في أدلة ألعاب الفيديو.</li>
+        <li>ركن المنطق: المفارقات والتمارين والحجج الكلاسيكية من إعدادنا؛ ويُذكر أصل كل مفارقة في بطاقتها.</li>
       </ul>
       <!-- NOTAS-ARETE-INICIO -->
       <h2>ملاحظات ومراجع حسب المواضيع</h2>
@@ -812,6 +830,8 @@
       <h2>صور</h2>
       <ul>
         <li>أعمال فنية وصور شخصية من Wikimedia Commons ومن متاحف ومكتبات (Metropolitan Museum وRijksmuseum وLACMA وWellcome Collection وNew York Public Library وLibrary of Congress وWalters Art Museum)، في الملك العام أو برخص CC0 وCC BY وCC BY-SA. تحمل كل صورة بيانات مصدرها.</li>
+        <li>المأثورات: لوحات ونقوش وصفحات غلاف وفسيفساء من ويكيميديا كومنز، في الملك العام أو برخصة CC0 (متحف برادو، الناشيونال غاليري في لندن، المكتبة البريطانية، المتحف البريطاني، متحف رايكس، متحف والترز للفنون، المكتبة الوطنية الفرنسية، وغيرها)؛ شعار مونتين وميدالية له.</li>
+        <li>صور فوتوغرافية من Unsplash.</li>
         <li>رسوم مولّدة بالذكاء الاصطناعي (Gemini وNano Banana من Google، وFLUX).</li>
       </ul>
       <h2>أفلام ومسلسلات وفيديوهات</h2>
@@ -886,6 +906,8 @@
 <script src="js/rescrituraview.js"></script>
 <script src="js/nudos.js"></script>
 <script src="js/nudosview.js"></script>
+<script src="js/adagios.js"></script>
+<script src="js/adagiosview.js"></script>
 <!-- mermaid se carga bajo demanda al abrir Esquemas (js/lazy_libs.js) -->
 <script src="js/esquemas.js"></script>
 <script src="js/esquemas_fil.js"></script>
