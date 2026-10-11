@@ -47,6 +47,7 @@
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">للمراجعة</span>
         <div class="navmenu">
           <button data-view="teoria">الدروس</button>
+          <button data-view="esqautor">ملخصات</button>
           <button data-view="tarjetas">بطاقات</button>
           <button data-view="reto">تحدٍّ</button>
           <button data-view="parejas">أزواج</button>
@@ -218,8 +219,14 @@
     </div>
   </section>
 
-  <!-- ESQUEMAS DE AUTOR -->
-  
+  <!-- RESÚMENES (antes «Esquemas de autor») -->
+  <section class="view" id="esqautor">
+    <p class="eyebrow">للمراجعة</p>
+    <h1 class="title">ملخصات</h1>
+    <p class="lead"><strong>ملخص لكل موضوع</strong> من المقرر، بصيغة نصية واضحة: سؤال الموضوع، وأقسامه مع المفاهيم والمؤلفين، والفكرة الأساسية، في صفحة مراجعة واحدة. وهي تكمّل مبيانات <strong>الخطاطات</strong>.</p>
+    <div class="filterbar" id="eafilter" role="group" aria-label="Filtrar resúmenes"></div>
+    <div id="eabody"></div>
+  </section>
 
   <!-- GALERÍA -->
   <section class="view" id="galeria">
@@ -936,6 +943,8 @@
 <script src="js/esquemas_fil.js"></script>
 <script src="js/esq_grid.js"></script>
 <script src="js/esquemasview.js"></script>
+<script src="js/resumenes_fil.js"></script>
+<script src="js/esquemas_autorview.js"></script>
 <script src="js/sesiones.js"></script>
 <script src="js/sesionesview.js"></script>
 <script src="js/calendarioview.js"></script>
