@@ -885,7 +885,7 @@ const ESQUEMAS_FIL = {
  "FIL-TA-01": {
   "subject": "fil",
   "block": "F1",
-  "tema": "الفلسفة · ورشة الحجاج",
+  "tema": "الفلسفة · الموضوع 4",
   "title": "الحجة: الصحة والصدق",
   "mermaid": "flowchart TD\n  arg[\"الحجة\"]:::axis\n  prem[\"المقدمات\"]:::key\n  conc[\"النتيجة\"]:::key\n  tipos[\"الأنواع\"]:::key\n  ded[\"استنباطية: النتيجة تلزم بالضرورة\"]\n  ind[\"استقرائية: النتيجة محتملة فقط\"]\n  eval[\"التقييم\"]:::key\n  val[\"الصحة: الصورة سليمة\"]\n  ver[\"الصدق: المقدمات صادقة\"]\n  sol[\"متينة: صحيحة + مقدمات صادقة\"]:::key\n  arg --> prem\n  prem -->|\"تدعم\"| conc\n  arg --> tipos\n  tipos --> ded\n  tipos --> ind\n  arg --> eval\n  eval --> val\n  eval --> ver\n  val -->|\"باجتماعهما تنتج\"| sol\n  ver -->|\"باجتماعهما تنتج\"| sol\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
   "v2": {
@@ -972,7 +972,7 @@ const ESQUEMAS_FIL = {
  "FIL-TA-02": {
   "subject": "fil",
   "block": "F1",
-  "tema": "الفلسفة · ورشة الحجاج",
+  "tema": "الفلسفة · الموضوع 4",
   "title": "المغالطات",
   "mermaid": "flowchart TD\n  fal[\"المغالطات\"]:::axis\n  def[\"حجج تبدو صحيحة لكنها ليست كذلك\"]\n  formal[\"صورية: خلل في البنية المنطقية\"]:::key\n  inf[\"غير صورية: خلل في المضمون أو اللغة\"]:::key\n  ah[\"ad hominem: مهاجمة الشخص\"]\n  ap[\"ad populum: الاحتكام إلى الأغلبية\"]\n  aver[\"ad verecundiam: الاحتكام إلى السلطة\"]\n  fc[\"السبب الزائف: الخلط بين الارتباط والسببية\"]\n  hp[\"رجل القشّ: تشويه أطروحة الخصم\"]\n  fal --> def\n  fal --> formal\n  fal --> inf\n  inf --> ah\n  inf --> ap\n  inf --> aver\n  inf --> fc\n  inf --> hp\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
   "v2": {
