@@ -123,7 +123,7 @@ const ILUSTRACIONES = [
   "pie": "الجمال الكلاسيكي: التناسب والانسجام مثالًا جماليًا.",
   "tema": "fil-t7",
   "license": "ملكية عامة",
-  "artist": "فنان مجهول",
+  "artist": "مؤلف مجهول",
   "page": "https://commons.wikimedia.org/wiki/File:Venus_de_Milo_Louvre_Ma399_n4.jpg"
  },
  {
@@ -276,7 +276,7 @@ const ILUSTRACIONES = [
   "pie": "السعادة لذّة هادئة وغياب الألم.",
   "tema": "fil-t5",
   "license": "ملكية عامة",
-  "artist": "فنان مجهول",
+  "artist": "مؤلف مجهول",
   "page": "https://commons.wikimedia.org/wiki/File:Epikouros_BM_1843.jpg"
  },
  {
