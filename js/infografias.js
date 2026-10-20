@@ -8,9 +8,9 @@ const INFOGRAFIAS = {
   "title": "ما هي<br><em>الفلسفة؟</em>",
   "kicker": "الفلسفة · السنة الأولى باكالوريا · الموضوع 1",
   "subtitle": "من الدهشة إلى اللوغوس (logos)",
-  "tagline": "φιλοσοφία",
+  "tagline": "φιλοσοφία (philosophía)",
   "author": "«محبة الحكمة»",
-  "ghost": "σοφία",
+  "ghost": "σοφία (sophía)",
   "portrait": null,
   "blocks": [
    {
@@ -491,7 +491,7 @@ const INFOGRAFIAS = {
   "subtitle": "ولادة الفلسفة",
   "tagline": "اليونان، القرن 6 ق.م",
   "author": "MYTHOS → LOGOS",
-  "ghost": "λόγος",
+  "ghost": "λόγος (lógos)",
   "portrait": null,
   "blocks": [
    {
