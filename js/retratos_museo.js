@@ -259,6 +259,18 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg"
  },
  {
+  "slug": "schopenhauer",
+  "name": "شوبنهاور",
+  "aliases": [
+   "شوبنهاور"
+  ],
+  "file": "media/retratos/museo/schopenhauer.jpg",
+  "title": "آرثر شوبنهاور (ي. شيفر، 1859)",
+  "artist": "يوهان شيفر",
+  "license": "ملك عام",
+  "page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
+ },
+ {
   "slug": "mill",
   "name": "جون ستيوارت ميل",
   "aliases": [
