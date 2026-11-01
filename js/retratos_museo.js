@@ -49,6 +49,18 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File:Hypatia_(Charles_William_Mitchell).jpg"
  },
  {
+  "slug": "aspasia",
+  "name": "أسبازيا",
+  "aliases": [
+   "أسبازيا"
+  ],
+  "file": "media/retratos/museo/aspasia.jpg",
+  "title": "أسباسيا كانيني",
+  "artist": "Giovanni Angelo Canini",
+  "license": "ملك عام",
+  "page": "https://commons.wikimedia.org/wiki/File:Aspasia_Canini.png"
+ },
+ {
   "slug": "alcibiades",
   "name": "ألكيبيادس",
   "aliases": [
